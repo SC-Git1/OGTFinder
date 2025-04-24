@@ -25,6 +25,12 @@ System Requirements: Python (>= 3.9)
 pip install OGTFinder
 ```
 
+### Installation with conda
+```
+conda install -c bioconda ogtfinder
+```
+
+
 ## Usage <a name="usage"></a>
 
 ### Input Data <a name="input_data"></a>
@@ -59,4 +65,4 @@ Now, the OGT can be predicted with the following command:
 ogtfinder tests/test_data/Fervidobacterium_pennivorans/GCF_000235405.2.faa --outdir my_outdir --domain Bacteria
 ```
 
-The predicted OGT is both printed to the screen and stored in `my_outdir/results.tsv`. The predicted OGT is 71.3°C, close to the median OGT of 70°C.
+The predicted OGT is both printed to the screen and stored in `my_outdir/results.tsv`. The predicted OGT is 65.6°C, close to the median OGT of 70°C.
