@@ -1,0 +1,332 @@
+2025-03-02 21:26:58,345 - INFO - LassoLarsCV training script started
+A new study created in memory with name: no-name-dd2f0f60-401a-4f9d-bfb7-9ea90cc295e9
+2025-03-02 21:26:58,458 - INFO - Starting Optuna hyperparameter optimization
+Trial 0 finished with value: 3.703232962733665 and parameters: {'alpha': 0.03373549705407805}. Best is trial 0 with value: 3.703232962733665.
+Trial 1 finished with value: 4.025159928569841 and parameters: {'alpha': 0.15654978881412648}. Best is trial 0 with value: 3.703232962733665.
+Trial 2 finished with value: 3.5704533742346136 and parameters: {'alpha': 0.00013455869304969961}. Best is trial 2 with value: 3.5704533742346136.
+Trial 3 finished with value: 3.570068641510962 and parameters: {'alpha': 1.8316875034342808e-05}. Best is trial 3 with value: 3.570068641510962.
+Trial 4 finished with value: 3.57057051270226 and parameters: {'alpha': 0.00016986883737104386}. Best is trial 3 with value: 3.570068641510962.
+Trial 5 finished with value: 3.5701511780536803 and parameters: {'alpha': 4.3288969436459666e-05}. Best is trial 3 with value: 3.570068641510962.
+Trial 6 finished with value: 4.182833102587313 and parameters: {'alpha': 0.23090900086512406}. Best is trial 3 with value: 3.570068641510962.
+Trial 7 finished with value: 3.9412458516266264 and parameters: {'alpha': 0.11923483118324447}. Best is trial 3 with value: 3.570068641510962.
+Trial 8 finished with value: 3.5951263715006703 and parameters: {'alpha': 0.006967455769894332}. Best is trial 3 with value: 3.570068641510962.
+Trial 9 finished with value: 3.587256479951917 and parameters: {'alpha': 0.004895250797972592}. Best is trial 3 with value: 3.570068641510962.
+Trial 10 finished with value: 3.570064249371545 and parameters: {'alpha': 1.698746345189488e-05}. Best is trial 10 with value: 3.570064249371545.
+Trial 11 finished with value: 3.570079874190282 and parameters: {'alpha': 2.1716533534466448e-05}. Best is trial 10 with value: 3.570064249371545.
+Trial 12 finished with value: 8.879931193074363 and parameters: {'alpha': 4.403105084670537}. Best is trial 10 with value: 3.570064249371545.
+Trial 13 finished with value: 3.5726634380554168 and parameters: {'alpha': 0.0007944877019012258}. Best is trial 10 with value: 3.570064249371545.
+Trial 14 finished with value: 3.570048360792465 and parameters: {'alpha': 1.2177861043656016e-05}. Best is trial 14 with value: 3.570048360792465.
+Trial 15 finished with value: 3.572068601459635 and parameters: {'alpha': 0.0006181529697875294}. Best is trial 14 with value: 3.570048360792465.
+Trial 16 finished with value: 3.570043098713723 and parameters: {'alpha': 1.0584830913799412e-05}. Best is trial 16 with value: 3.570043098713723.
+Trial 17 finished with value: 3.5726261087225013 and parameters: {'alpha': 0.0007834489769336073}. Best is trial 16 with value: 3.570043098713723.
+Trial 18 finished with value: 3.5702983039280776 and parameters: {'alpha': 8.775588812769356e-05}. Best is trial 16 with value: 3.570043098713723.
+Trial 19 finished with value: 7.2863473419725535 and parameters: {'alpha': 2.8032300804359753}. Best is trial 16 with value: 3.570043098713723.
+Trial 20 finished with value: 3.5786943064456693 and parameters: {'alpha': 0.0025326921884418407}. Best is trial 16 with value: 3.570043098713723.
+Trial 21 finished with value: 3.570042120326479 and parameters: {'alpha': 1.0288627554672475e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 22 finished with value: 3.570050722182826 and parameters: {'alpha': 1.2892717925149432e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 23 finished with value: 3.5702003794824497 and parameters: {'alpha': 5.816619502307641e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 24 finished with value: 3.570951264524478 and parameters: {'alpha': 0.0002843812662213574}. Best is trial 21 with value: 3.570042120326479.
+Trial 25 finished with value: 3.570151369122674 and parameters: {'alpha': 4.3346756786180314e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 26 finished with value: 3.570047316754536 and parameters: {'alpha': 1.1861797473988564e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 27 finished with value: 3.5707191175698734 and parameters: {'alpha': 0.00021460967110740258}. Best is trial 21 with value: 3.570042120326479.
+Trial 28 finished with value: 3.5701385990681445 and parameters: {'alpha': 3.948432731680455e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 29 finished with value: 3.699608521868721 and parameters: {'alpha': 0.03277368707995117}. Best is trial 21 with value: 3.570042120326479.
+Trial 30 finished with value: 3.5755851403406105 and parameters: {'alpha': 0.0016474970951800506}. Best is trial 21 with value: 3.570042120326479.
+Trial 31 finished with value: 3.5700445259769706 and parameters: {'alpha': 1.1016925119364467e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 32 finished with value: 3.5701141674334282 and parameters: {'alpha': 3.209346648331715e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 33 finished with value: 3.570042739808101 and parameters: {'alpha': 1.0476173788046494e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 34 finished with value: 3.5703303347957247 and parameters: {'alpha': 9.74288136117812e-05}. Best is trial 21 with value: 3.570042120326479.
+Trial 35 finished with value: 3.5709054410844816 and parameters: {'alpha': 0.0002706207606159528}. Best is trial 21 with value: 3.570042120326479.
+Trial 36 finished with value: 3.570041526476028 and parameters: {'alpha': 1.0108840072171361e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 37 finished with value: 3.5703815861846793 and parameters: {'alpha': 0.0001129001644572002}. Best is trial 36 with value: 3.570041526476028.
+Trial 38 finished with value: 3.5701049199966506 and parameters: {'alpha': 2.9295570892431114e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 39 finished with value: 3.5701859666730584 and parameters: {'alpha': 5.380883854715045e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 40 finished with value: 5.544573977085059 and parameters: {'alpha': 1.1261297837263902}. Best is trial 36 with value: 3.570041526476028.
+Trial 41 finished with value: 3.5700422731549155 and parameters: {'alpha': 1.0334896012800149e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 42 finished with value: 3.570084065584564 and parameters: {'alpha': 2.2985001340885845e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 43 finished with value: 3.570041764041327 and parameters: {'alpha': 1.0180762788544972e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 44 finished with value: 3.6340762972045804 and parameters: {'alpha': 0.01650812360258677}. Best is trial 36 with value: 3.570041526476028.
+Trial 45 finished with value: 3.570082770526917 and parameters: {'alpha': 2.259307521662236e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 46 finished with value: 3.5702163726918967 and parameters: {'alpha': 6.300066766615607e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 47 finished with value: 3.5700804410876126 and parameters: {'alpha': 2.1888100088445084e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 48 finished with value: 3.5715699035673474 and parameters: {'alpha': 0.0004695962865393055}. Best is trial 36 with value: 3.570041526476028.
+Trial 49 finished with value: 3.5704370378713337 and parameters: {'alpha': 0.00012963125170622613}. Best is trial 36 with value: 3.570041526476028.
+Trial 50 finished with value: 3.938481999664064 and parameters: {'alpha': 0.11794542066334682}. Best is trial 36 with value: 3.570041526476028.
+Trial 51 finished with value: 3.5700426831838263 and parameters: {'alpha': 1.045903100062392e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 52 finished with value: 3.5700641469474426 and parameters: {'alpha': 1.6956461106802682e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 53 finished with value: 3.5701130285487226 and parameters: {'alpha': 3.174889954254366e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 54 finished with value: 3.57006435308964 and parameters: {'alpha': 1.7018857440184388e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 55 finished with value: 3.570291732135577 and parameters: {'alpha': 8.577093515508873e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 56 finished with value: 3.5700441892614805 and parameters: {'alpha': 1.0914987318118562e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 57 finished with value: 3.5701863574267323 and parameters: {'alpha': 5.3926980905943424e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 58 finished with value: 3.5700661814037824 and parameters: {'alpha': 1.7572257111231296e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 59 finished with value: 3.5700430573113286 and parameters: {'alpha': 1.0572296536479472e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 60 finished with value: 3.5701187314056924 and parameters: {'alpha': 3.347424934940309e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 61 finished with value: 3.570042540996846 and parameters: {'alpha': 1.0415984384252474e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 62 finished with value: 3.5700670355132034 and parameters: {'alpha': 1.7830778331827077e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 63 finished with value: 3.5700416960928694 and parameters: {'alpha': 1.0160191459955052e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 64 finished with value: 3.570102333545782 and parameters: {'alpha': 2.851297396788921e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 65 finished with value: 3.570268455480668 and parameters: {'alpha': 7.87394559432909e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 66 finished with value: 3.570159792190219 and parameters: {'alpha': 4.5894147480784554e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 67 finished with value: 9.787823604608029 and parameters: {'alpha': 9.723287692578795}. Best is trial 36 with value: 3.570041526476028.
+Trial 68 finished with value: 3.570056757594404 and parameters: {'alpha': 1.4719729602212736e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 69 finished with value: 3.5705311837505875 and parameters: {'alpha': 0.0001580177759575259}. Best is trial 36 with value: 3.570041526476028.
+Trial 70 finished with value: 3.570086213332175 and parameters: {'alpha': 2.3634968536707017e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 71 finished with value: 3.570050576250998 and parameters: {'alpha': 1.2848540857956567e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 72 finished with value: 3.5700437891305796 and parameters: {'alpha': 1.0793850617297424e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 73 finished with value: 3.570131548262772 and parameters: {'alpha': 3.735154601150434e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 74 finished with value: 3.5700630043216406 and parameters: {'alpha': 1.661060224629769e-05}. Best is trial 36 with value: 3.570041526476028.
+Trial 75 finished with value: 3.570041442241178 and parameters: {'alpha': 1.0083337996536727e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 76 finished with value: 3.570098502612052 and parameters: {'alpha': 2.735379248466494e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 77 finished with value: 3.5702123914720536 and parameters: {'alpha': 6.179727998539624e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 78 finished with value: 3.5700649155660487 and parameters: {'alpha': 1.7189110503629604e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 79 finished with value: 3.5700422278852657 and parameters: {'alpha': 1.032119073678829e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 80 finished with value: 3.570090329450056 and parameters: {'alpha': 2.4880582334413447e-05}. Best is trial 75 with value: 3.570041442241178.
+Trial 81 finished with value: 3.5700412195741635 and parameters: {'alpha': 1.0015925528458196e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 82 finished with value: 3.5700563241835384 and parameters: {'alpha': 1.458853288672645e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 83 finished with value: 3.5701352344529957 and parameters: {'alpha': 3.846659024559092e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 84 finished with value: 3.5700576307243397 and parameters: {'alpha': 1.4984030974548944e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 85 finished with value: 3.5700418128537805 and parameters: {'alpha': 1.019554070269919e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 86 finished with value: 3.5817018382866244 and parameters: {'alpha': 0.0033684487368479737}. Best is trial 81 with value: 3.5700412195741635.
+Trial 87 finished with value: 3.5700820991401834 and parameters: {'alpha': 2.2389890134354272e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 88 finished with value: 3.5701351609057212 and parameters: {'alpha': 3.844434313146699e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 89 finished with value: 3.5700766033795923 and parameters: {'alpha': 2.07266335016366e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 90 finished with value: 4.205033890242863 and parameters: {'alpha': 0.24157373708358204}. Best is trial 81 with value: 3.5700412195741635.
+Trial 91 finished with value: 3.5700418949755255 and parameters: {'alpha': 1.0220402951412643e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 92 finished with value: 3.5700538886127453 and parameters: {'alpha': 1.3851257572062274e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 93 finished with value: 3.5700418416487607 and parameters: {'alpha': 1.0204258346680504e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 94 finished with value: 3.5700750029180326 and parameters: {'alpha': 2.0242248186582085e-05}. Best is trial 81 with value: 3.5700412195741635.
+Trial 95 finished with value: 3.5700411894260236 and parameters: {'alpha': 1.0006798164490307e-05}. Best is trial 95 with value: 3.5700411894260236.
+Trial 96 finished with value: 3.5701056863420697 and parameters: {'alpha': 2.9527444721629792e-05}. Best is trial 95 with value: 3.5700411894260236.
+Trial 97 finished with value: 3.570054725782371 and parameters: {'alpha': 1.4104680329594014e-05}. Best is trial 95 with value: 3.5700411894260236.
+Trial 98 finished with value: 3.570169645068316 and parameters: {'alpha': 4.8873704569980976e-05}. Best is trial 95 with value: 3.5700411894260236.
+Trial 99 finished with value: 3.570256017924777 and parameters: {'alpha': 7.498166440469602e-05}. Best is trial 95 with value: 3.5700411894260236.
+Trial 100 finished with value: 3.60015154449315 and parameters: {'alpha': 0.00820689045132558}. Best is trial 95 with value: 3.5700411894260236.
+Trial 101 finished with value: 3.5700411677443062 and parameters: {'alpha': 1.0000234012481382e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 102 finished with value: 3.5700534355390423 and parameters: {'alpha': 1.3714105112704236e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 103 finished with value: 3.5744659183054956 and parameters: {'alpha': 0.0013232462269615964}. Best is trial 101 with value: 3.5700411677443062.
+Trial 104 finished with value: 3.5700717660870156 and parameters: {'alpha': 1.9262587972400215e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 105 finished with value: 3.5700414038037587 and parameters: {'alpha': 1.0071701072622662e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 106 finished with value: 3.5700866542672087 and parameters: {'alpha': 2.376840594494755e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 107 finished with value: 3.570059451176582 and parameters: {'alpha': 1.5535085298370316e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 108 finished with value: 3.570106000760363 and parameters: {'alpha': 2.9622578074680577e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 109 finished with value: 3.5700507161371773 and parameters: {'alpha': 1.2890887763451622e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 110 finished with value: 3.570072188681803 and parameters: {'alpha': 1.9390492299548643e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 111 finished with value: 3.5700416930894208 and parameters: {'alpha': 1.0159282168541784e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 112 finished with value: 3.570041356421053 and parameters: {'alpha': 1.005735595891229e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 113 finished with value: 3.570053199020741 and parameters: {'alpha': 1.3642507114187864e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 114 finished with value: 3.570071011616527 and parameters: {'alpha': 1.903423549759012e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 115 finished with value: 3.570096585729074 and parameters: {'alpha': 2.677375782666808e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 116 finished with value: 3.5700414907061147 and parameters: {'alpha': 1.0098010743951172e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 117 finished with value: 3.5701490038043553 and parameters: {'alpha': 4.2631377236349545e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 118 finished with value: 3.570053267227158 and parameters: {'alpha': 1.3663154339695227e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 119 finished with value: 3.5700411899279203 and parameters: {'alpha': 1.0006950113967074e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 120 finished with value: 3.5700685769552463 and parameters: {'alpha': 1.8297335718832482e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 121 finished with value: 3.5700516477522144 and parameters: {'alpha': 1.3172908607645686e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 122 finished with value: 3.570042609881253 and parameters: {'alpha': 1.0436838907038622e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 123 finished with value: 3.5700887871469513 and parameters: {'alpha': 2.441385829855238e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 124 finished with value: 3.5700618624424485 and parameters: {'alpha': 1.626496572021754e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 125 finished with value: 3.570041530083637 and parameters: {'alpha': 1.0109932274330076e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 126 finished with value: 3.570130339472881 and parameters: {'alpha': 3.698588807777091e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 127 finished with value: 3.5700536886593257 and parameters: {'alpha': 1.3790728631615201e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 128 finished with value: 3.570082538453075 and parameters: {'alpha': 2.2522841706871386e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 129 finished with value: 3.570112037617433 and parameters: {'alpha': 3.144909261359138e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 130 finished with value: 3.570066517780004 and parameters: {'alpha': 1.7674071466372124e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 131 finished with value: 3.5700415830105117 and parameters: {'alpha': 1.0125955859137671e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 132 finished with value: 3.570041473577425 and parameters: {'alpha': 1.0092825038350588e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 133 finished with value: 3.5700418125318096 and parameters: {'alpha': 1.0195443226055347e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 134 finished with value: 3.5700529387071653 and parameters: {'alpha': 1.356370571156541e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 135 finished with value: 3.5700670808510386 and parameters: {'alpha': 1.784450109776702e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 136 finished with value: 3.6358560614120514 and parameters: {'alpha': 0.016964234426834025}. Best is trial 101 with value: 3.5700411677443062.
+Trial 137 finished with value: 3.570052221118151 and parameters: {'alpha': 1.3346478174721897e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 138 finished with value: 3.570041734669735 and parameters: {'alpha': 1.0171870569483003e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 139 finished with value: 3.570087199265493 and parameters: {'alpha': 2.3933334610494212e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 140 finished with value: 3.570061672125211 and parameters: {'alpha': 1.6207358054633895e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 141 finished with value: 3.5700418066214086 and parameters: {'alpha': 1.0193653859466337e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 142 finished with value: 3.5700507276299938 and parameters: {'alpha': 1.2894366912585005e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 143 finished with value: 3.5700786154403574 and parameters: {'alpha': 2.133558058171306e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 144 finished with value: 3.5700412449181336 and parameters: {'alpha': 1.0023598425867567e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 145 finished with value: 5.1319859262424785 and parameters: {'alpha': 0.7662953829687973}. Best is trial 101 with value: 3.5700411677443062.
+Trial 146 finished with value: 3.5700619725648983 and parameters: {'alpha': 1.629829895106243e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 147 finished with value: 3.5700504136765936 and parameters: {'alpha': 1.2799325612584701e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 148 finished with value: 3.570104507809647 and parameters: {'alpha': 2.917085441680454e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 149 finished with value: 3.5700730174322595 and parameters: {'alpha': 1.9641323967112326e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 150 finished with value: 3.570041493752645 and parameters: {'alpha': 1.0098933079933799e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 151 finished with value: 3.5700413205352186 and parameters: {'alpha': 1.0046491518612375e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 152 finished with value: 3.570041321925372 and parameters: {'alpha': 1.0046912387831318e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 153 finished with value: 3.570053736518305 and parameters: {'alpha': 1.380521628263151e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 154 finished with value: 3.570058363592228 and parameters: {'alpha': 1.520587258205038e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 155 finished with value: 3.5700681557393836 and parameters: {'alpha': 1.816984448156482e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 156 finished with value: 3.5700504917351323 and parameters: {'alpha': 1.2822955849197666e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 157 finished with value: 3.570041679494642 and parameters: {'alpha': 1.015516636108609e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 158 finished with value: 3.5700889141811145 and parameters: {'alpha': 2.4452300992023507e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 159 finished with value: 3.5700620411164756 and parameters: {'alpha': 1.6319048976838624e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 160 finished with value: 3.5700533676340465 and parameters: {'alpha': 1.3693549164031079e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 161 finished with value: 3.5700415639183687 and parameters: {'alpha': 1.0120175723424476e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 162 finished with value: 3.570041934594182 and parameters: {'alpha': 1.0232397439921302e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 163 finished with value: 3.570050451298126 and parameters: {'alpha': 1.281071457643234e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 164 finished with value: 3.570073377377959 and parameters: {'alpha': 1.975026542565179e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 165 finished with value: 3.5700414370279425 and parameters: {'alpha': 1.008175969047162e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 166 finished with value: 3.570061756649454 and parameters: {'alpha': 1.6232942950678728e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 167 finished with value: 3.5700411991367256 and parameters: {'alpha': 1.0009738084422426e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 168 finished with value: 3.570087058932792 and parameters: {'alpha': 2.389086687716315e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 169 finished with value: 3.570110391532645 and parameters: {'alpha': 3.0951062478550154e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 170 finished with value: 3.570052714628808 and parameters: {'alpha': 1.3495873181544143e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 171 finished with value: 3.5700416915983917 and parameters: {'alpha': 1.0158830760691257e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 172 finished with value: 3.570050647584414 and parameters: {'alpha': 1.2870135202492592e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 173 finished with value: 3.570041299774529 and parameters: {'alpha': 1.004020621592601e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 174 finished with value: 3.570068143869397 and parameters: {'alpha': 1.816625173391501e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 175 finished with value: 3.57006107628321 and parameters: {'alpha': 1.6027000289658703e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 176 finished with value: 3.5700510875705502 and parameters: {'alpha': 1.3003329298767366e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 177 finished with value: 3.571654708661351 and parameters: {'alpha': 0.0004949056767453596}. Best is trial 101 with value: 3.5700411677443062.
+Trial 178 finished with value: 3.870303469742305 and parameters: {'alpha': 0.08755955391223626}. Best is trial 101 with value: 3.5700411677443062.
+Trial 179 finished with value: 3.5700785578575953 and parameters: {'alpha': 2.1318153405678478e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 180 finished with value: 3.570041721900921 and parameters: {'alpha': 1.0168004823674077e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 181 finished with value: 3.5700517506853116 and parameters: {'alpha': 1.320406862430452e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 182 finished with value: 3.570042211156762 and parameters: {'alpha': 1.0316126221936973e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 183 finished with value: 3.570060121378602 and parameters: {'alpha': 1.5737954373379667e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 184 finished with value: 3.5700506943175987 and parameters: {'alpha': 1.2884282456721235e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 185 finished with value: 3.5700414052159575 and parameters: {'alpha': 1.0072128615821895e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 186 finished with value: 3.570069824859183 and parameters: {'alpha': 1.867504131310993e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 187 finished with value: 3.5700542573604643 and parameters: {'alpha': 1.396288281935439e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 188 finished with value: 3.5700779528514204 and parameters: {'alpha': 2.113505031650977e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 189 finished with value: 3.5700412863713447 and parameters: {'alpha': 1.0036148398628001e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 190 finished with value: 3.570052189331574 and parameters: {'alpha': 1.3336855753430797e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 191 finished with value: 3.5700424259191763 and parameters: {'alpha': 1.0381144976496382e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 192 finished with value: 3.570057877441794 and parameters: {'alpha': 1.5058713356984256e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 193 finished with value: 3.5700488377949413 and parameters: {'alpha': 1.2322263885099929e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 194 finished with value: 3.5700414842152064 and parameters: {'alpha': 1.009604562375462e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 195 finished with value: 3.5700414067659074 and parameters: {'alpha': 1.0072597863199704e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 196 finished with value: 3.5700710238041173 and parameters: {'alpha': 1.903792427802178e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 197 finished with value: 3.570041638618364 and parameters: {'alpha': 1.0142791100132726e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 198 finished with value: 3.570062913985795 and parameters: {'alpha': 1.6583258534199786e-05}. Best is trial 101 with value: 3.5700411677443062.
+Trial 199 finished with value: 3.5700938536039146 and parameters: {'alpha': 2.5947019114071505e-05}. Best is trial 101 with value: 3.5700411677443062.
+2025-03-02 21:28:57,377 - INFO - Best trial:
+2025-03-02 21:28:57,377 - INFO -   Value: 3.5700411677443062
+2025-03-02 21:28:57,377 - INFO -   Params: {'alpha': 1.0000234012481382e-05}
+2025-03-02 21:28:57,378 - INFO - BEST TRIAL PARAMETERS: {'alpha': 1.0000234012481382e-05}
+2025-03-02 21:28:57,384 - INFO - Hyperparameters saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/evaluation_genus_final/genus_exp/hyperparameters_genus_final.json
+2025-03-02 21:28:57,428 - INFO - Final model saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/models_final_genus/genus_exp/larslasso_rmse/larslasso_rmse.pkl
+2025-03-02 21:28:57,428 - INFO - Total number of observations: 6401
+2025-03-02 21:28:57,428 - INFO - Number of observations in 5% group: 320
+2025-03-02 21:28:57,428 - INFO - Number of observations in 10% group: 640
+2025-03-02 21:28:57,428 - INFO - Number of observations in 20% group: 1280
+2025-03-02 21:28:57,428 - INFO - Number of observations in training set: 5716
+2025-03-02 21:28:57,428 - INFO - Number of observations in testing set: 685
+2025-03-02 21:28:57,429 - INFO - During 5-fold cross-validation:
+2025-03-02 21:28:57,429 - INFO -   Number of observations in each training fold: 4572
+2025-03-02 21:28:57,429 - INFO -   Number of observations in each validation fold: 1144
+2025-03-02 21:28:57,429 - INFO -   CV training set 5% group: 228
+2025-03-02 21:28:57,429 - INFO -   CV training set 10% group: 457
+2025-03-02 21:28:57,429 - INFO -   CV training set 20% group: 914
+2025-03-02 21:28:57,429 - INFO -   CV validation set 5% group: 57
+2025-03-02 21:28:57,429 - INFO -   CV validation set 10% group: 114
+2025-03-02 21:28:57,429 - INFO -   CV validation set 20% group: 228
+2025-03-02 21:28:58,790 - INFO - Training Performance:
+2025-03-02 21:28:58,791 - INFO - RMSE: 6.0873
+2025-03-02 21:28:58,791 - INFO - MAE: 4.7144
+2025-03-02 21:28:58,791 - INFO - R2: 0.7268
+2025-03-02 21:28:58,791 - INFO - Adjusted R2: 0.7239
+2025-03-02 21:28:58,791 - INFO - Training Binned Performance:
+2025-03-02 21:28:58,791 - INFO - top_5%:
+2025-03-02 21:28:58,791 - INFO -   RMSE: 9.6254
+2025-03-02 21:28:58,791 - INFO -   MAE: 8.1317
+2025-03-02 21:28:58,791 - INFO -   R2: 0.2323
+2025-03-02 21:28:58,791 - INFO -   Adjusted R2: 0.0318
+2025-03-02 21:28:58,791 - INFO - top_10%:
+2025-03-02 21:28:58,791 - INFO -   RMSE: 8.9110
+2025-03-02 21:28:58,791 - INFO -   MAE: 7.4998
+2025-03-02 21:28:58,791 - INFO -   R2: 0.6117
+2025-03-02 21:28:58,791 - INFO -   Adjusted R2: 0.5670
+2025-03-02 21:28:58,791 - INFO - top_20%:
+2025-03-02 21:28:58,791 - INFO -   RMSE: 7.9029
+2025-03-02 21:28:58,791 - INFO -   MAE: 6.4293
+2025-03-02 21:28:58,791 - INFO -   R2: 0.7404
+2025-03-02 21:28:58,791 - INFO -   Adjusted R2: 0.7263
+2025-03-02 21:28:58,792 - INFO - bottom_5%:
+2025-03-02 21:28:58,792 - INFO -   RMSE: 9.8558
+2025-03-02 21:28:58,792 - INFO -   MAE: 8.5764
+2025-03-02 21:28:58,792 - INFO -   R2: -5.5561
+2025-03-02 21:28:58,792 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:28:58,792 - INFO - bottom_10%:
+2025-03-02 21:28:58,792 - INFO -   RMSE: 8.0904
+2025-03-02 21:28:58,792 - INFO -   MAE: 6.4763
+2025-03-02 21:28:58,792 - INFO -   R2: -2.6488
+2025-03-02 21:28:58,792 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:28:58,792 - INFO - bottom_20%:
+2025-03-02 21:28:58,792 - INFO -   RMSE: 6.7025
+2025-03-02 21:28:58,792 - INFO -   MAE: 5.1236
+2025-03-02 21:28:58,792 - INFO -   R2: -1.7899
+2025-03-02 21:28:58,792 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:28:59,658 - INFO - Testing Performance:
+2025-03-02 21:28:59,658 - INFO - RMSE: 6.8692
+2025-03-02 21:28:59,658 - INFO - MAE: 5.1253
+2025-03-02 21:28:59,658 - INFO - R2: 0.7434
+2025-03-02 21:28:59,658 - INFO - Adjusted R2: 0.7192
+2025-03-02 21:28:59,658 - INFO - Testing Binned Performance:
+2025-03-02 21:28:59,658 - INFO - top_5%:
+2025-03-02 21:28:59,658 - INFO -   RMSE: 10.1486
+2025-03-02 21:28:59,658 - INFO -   MAE: 8.1887
+2025-03-02 21:28:59,658 - INFO -   R2: -4.4260
+2025-03-02 21:28:59,658 - INFO -   Adjusted R2: -4.4260
+2025-03-02 21:28:59,658 - INFO - top_10%:
+2025-03-02 21:28:59,658 - INFO -   RMSE: 11.6133
+2025-03-02 21:28:59,658 - INFO -   MAE: 9.6229
+2025-03-02 21:28:59,658 - INFO -   R2: -1.3953
+2025-03-02 21:28:59,658 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:28:59,658 - INFO - top_20%:
+2025-03-02 21:28:59,658 - INFO -   RMSE: 9.4718
+2025-03-02 21:28:59,658 - INFO -   MAE: 7.5127
+2025-03-02 21:28:59,659 - INFO -   R2: 0.5598
+2025-03-02 21:28:59,659 - INFO -   Adjusted R2: 0.2225
+2025-03-02 21:28:59,659 - INFO - bottom_5%:
+2025-03-02 21:28:59,659 - INFO -   RMSE: 12.7695
+2025-03-02 21:28:59,659 - INFO -   MAE: 10.5645
+2025-03-02 21:28:59,659 - INFO -   R2: -5.9782
+2025-03-02 21:28:59,659 - INFO -   Adjusted R2: -5.9782
+2025-03-02 21:28:59,659 - INFO - bottom_10%:
+2025-03-02 21:28:59,659 - INFO -   RMSE: 9.8968
+2025-03-02 21:28:59,659 - INFO -   MAE: 7.5975
+2025-03-02 21:28:59,659 - INFO -   R2: -3.6892
+2025-03-02 21:28:59,659 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:28:59,659 - INFO - bottom_20%:
+2025-03-02 21:28:59,659 - INFO -   RMSE: 7.5301
+2025-03-02 21:28:59,659 - INFO -   MAE: 5.3040
+2025-03-02 21:28:59,659 - INFO -   R2: -2.1858
+2025-03-02 21:28:59,659 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:29:00,556 - INFO - Cross-Validation Performance:
+2025-03-02 21:29:00,556 - INFO - RMSE: 6.2920
+2025-03-02 21:29:00,556 - INFO - MAE: 4.8637
+2025-03-02 21:29:00,556 - INFO - R2: 0.7081
+2025-03-02 21:29:00,556 - INFO - Adjusted R2: 0.7050
+2025-03-02 21:29:00,556 - INFO - Cross-Validation Binned Performance:
+2025-03-02 21:29:00,556 - INFO - top_5%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 10.1179
+2025-03-02 21:29:00,556 - INFO -   MAE: 8.6778
+2025-03-02 21:29:00,556 - INFO -   R2: 0.1517
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: -0.0698
+2025-03-02 21:29:00,556 - INFO - top_10%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 9.2748
+2025-03-02 21:29:00,556 - INFO -   MAE: 7.8556
+2025-03-02 21:29:00,556 - INFO -   R2: 0.5794
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: 0.5309
+2025-03-02 21:29:00,556 - INFO - top_20%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 8.2423
+2025-03-02 21:29:00,556 - INFO -   MAE: 6.7207
+2025-03-02 21:29:00,556 - INFO -   R2: 0.7177
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: 0.7023
+2025-03-02 21:29:00,556 - INFO - bottom_5%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 9.9683
+2025-03-02 21:29:00,556 - INFO -   MAE: 8.6538
+2025-03-02 21:29:00,556 - INFO -   R2: -5.7066
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:29:00,556 - INFO - bottom_10%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 8.2194
+2025-03-02 21:29:00,556 - INFO -   MAE: 6.6203
+2025-03-02 21:29:00,556 - INFO -   R2: -2.7660
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:29:00,556 - INFO - bottom_20%:
+2025-03-02 21:29:00,556 - INFO -   RMSE: 6.9000
+2025-03-02 21:29:00,556 - INFO -   MAE: 5.2613
+2025-03-02 21:29:00,556 - INFO -   R2: -1.9567
+2025-03-02 21:29:00,556 - INFO -   Adjusted R2: -1.0000

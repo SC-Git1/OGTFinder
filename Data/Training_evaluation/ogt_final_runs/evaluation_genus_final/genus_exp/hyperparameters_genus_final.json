@@ -1,0 +1,84 @@
+{
+    "genus_exp": {
+        "bayesian_ridge_rmse": {
+            "alpha_1": 90.78897401956841,
+            "alpha_2": 95.1392989658921,
+            "lambda_1": 0.0003211904988989773,
+            "lambda_2": 97.62416461301959
+        },
+        "huber_rmse": {
+            "epsilon": 1.999639707200171,
+            "alpha": 0.00018678409194824584,
+            "max_iter": 10000
+        },
+        "knn_rmse": {
+            "n_neighbors": 7,
+            "weights": "distance",
+            "p": 2
+        },
+        "larslasso_rmse": {
+            "alpha": 1.0000234012481382e-05,
+            "max_iter": 10000,
+            "fit_intercept": true,
+            "random_state": 2024
+        },
+        "lars_rmse": {
+            "n_nonzero_coefs": 16
+        },
+        "pls_rmse": {
+            "n_components": 18,
+            "max_iter": 10000,
+            "scale": false
+        },
+        "kernel_ridge_rmse": {
+            "length_scale": 10.040008969368074,
+            "noise_level": 2.242993407409634
+        },
+        "ridge_rmse": {
+            "alpha": 1.0000195010020867e-05,
+            "random_state": 2024
+        },
+        "sgd_rmse": {
+            "loss": "squared_error",
+            "penalty": "l1",
+            "alpha": 1.0005397860105164e-05,
+            "max_iter": 10000,
+            "random_state": 2024
+        },
+        "lasso_rmse": {
+            "alpha": 1.0000195010020867e-05,
+            "max_iter": 10000
+        },
+        "gaussian_process_rmse": {
+            "length_scale": 11.027681520775662,
+            "noise_level": 0.10042461432032601,
+            "random_state": 2024,
+            "optimizer": null
+        },
+        "svr_rmse": {
+            "C": 99.14297998410095,
+            "epsilon": 8.606567964033717,
+            "length_scale": 7.9245320194510835,
+            "noise_level": 0.7824586666155238
+        },
+        "mlp_rmse": {
+            "hidden_layer_sizes": [
+                50,
+                50
+            ],
+            "activation": "relu",
+            "alpha": 0.0006571277635464266,
+            "learning_rate": "adaptive",
+            "solver": "sgd",
+            "learning_rate_init": 0.0005801245597469199,
+            "max_iter": 10000,
+            "random_state": 2024
+        },
+        "elastic_net_rmse": {
+            "alpha": 1.0220705155832997e-08,
+            "l1_ratio": 0.999876987335444,
+            "max_iter": 50000
+        }
+        
+    }
+}

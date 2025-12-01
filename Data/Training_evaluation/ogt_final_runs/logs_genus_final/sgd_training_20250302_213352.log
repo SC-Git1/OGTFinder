@@ -1,0 +1,332 @@
+2025-03-02 21:33:52,940 - INFO - Sgd training script started
+A new study created in memory with name: no-name-b9ba928e-fe5f-4968-a252-24edca5c89db
+2025-03-02 21:33:53,235 - INFO - Starting Optuna hyperparameter optimization
+Trial 0 finished with value: 10.04459922585976 and parameters: {'loss': 'huber', 'penalty': 'elasticnet', 'alpha': 0.024946097626738682}. Best is trial 0 with value: 10.04459922585976.
+Trial 1 finished with value: 3.6844469660106753 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 0.010793147112052133}. Best is trial 1 with value: 3.6844469660106753.
+Trial 2 finished with value: 3.6810314967350437 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'elasticnet', 'alpha': 0.00018148320229297347}. Best is trial 2 with value: 3.6810314967350437.
+Trial 3 finished with value: 6.487586694979012 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l2', 'alpha': 0.050273690330823136}. Best is trial 2 with value: 3.6810314967350437.
+Trial 4 finished with value: 4.246708489531559 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l2', 'alpha': 0.00013453765015140296}. Best is trial 2 with value: 3.6810314967350437.
+Trial 5 finished with value: 4.3002163656491135 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l2', 'alpha': 0.2998535689461701}. Best is trial 2 with value: 3.6810314967350437.
+Trial 6 finished with value: 7.458397059487062 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 2.0897381960959098e-05}. Best is trial 2 with value: 3.6810314967350437.
+Trial 7 finished with value: 4.22550915611168 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'elasticnet', 'alpha': 0.2518578624709074}. Best is trial 2 with value: 3.6810314967350437.
+Trial 8 finished with value: 4.067186491283883 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l2', 'alpha': 0.17580002780033038}. Best is trial 2 with value: 3.6810314967350437.
+Trial 9 finished with value: 3.7787170307877043 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'elasticnet', 'alpha': 0.048176418025461416}. Best is trial 2 with value: 3.6810314967350437.
+Trial 10 finished with value: 3.59712718175368 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0005618594777489791}. Best is trial 10 with value: 3.59712718175368.
+Trial 11 finished with value: 3.5980135015118377 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0006631144338411809}. Best is trial 10 with value: 3.59712718175368.
+Trial 12 finished with value: 3.6001349529120135 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0009047064474369963}. Best is trial 10 with value: 3.59712718175368.
+Trial 13 finished with value: 3.607396357788707 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0017339463408550606}. Best is trial 10 with value: 3.59712718175368.
+Trial 14 finished with value: 3.5951177562590457 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0003318304490275946}. Best is trial 14 with value: 3.5951177562590457.
+Trial 15 finished with value: 3.5927827538536703 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 6.53484632506782e-05}. Best is trial 15 with value: 3.5927827538536703.
+Trial 16 finished with value: 3.592297237698543 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5527508813224967e-05}. Best is trial 16 with value: 3.592297237698543.
+Trial 17 finished with value: 3.592273013416006 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.1248791382319812e-05}. Best is trial 17 with value: 3.592273013416006.
+Trial 18 finished with value: 3.5922674205669614 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0258704308158616e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 19 finished with value: 3.592269472547487 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0621942417970323e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 20 finished with value: 4.505759321404563 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 0.004770309527811676}. Best is trial 18 with value: 3.5922674205669614.
+Trial 21 finished with value: 3.592271572699032 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0993898858468276e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 22 finished with value: 3.5924367543712186 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.998439760792785e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 23 finished with value: 3.5924909190632035 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 4.974094619896486e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 24 finished with value: 7.461042318626542 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 2.487500822291314e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 25 finished with value: 3.592274376092328 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.1489115755831728e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 26 finished with value: 3.592575407275578 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 6.501228428562296e-05}. Best is trial 18 with value: 3.5922674205669614.
+Trial 27 finished with value: 3.5929913630950194 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.0001358311128574808}. Best is trial 18 with value: 3.5922674205669614.
+Trial 28 finished with value: 3.5922668290789055 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0154076057721957e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 29 finished with value: 10.651967987771066 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 0.8892952107376213}. Best is trial 28 with value: 3.5922668290789055.
+Trial 30 finished with value: 4.24222716392256 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 4.36339347005192e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 31 finished with value: 3.5922678173104154 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0328878354251954e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 32 finished with value: 3.592329482192077 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.114556622369491e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 33 finished with value: 3.5923711411437806 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.8313662662468963e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 34 finished with value: 3.5926643474447943 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 8.104598056675723e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 35 finished with value: 7.543103929813276 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 0.00017045489699730836}. Best is trial 28 with value: 3.5922668290789055.
+Trial 36 finished with value: 3.5924491775739336 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 2.57740451456751e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 37 finished with value: 4.8616094305470865 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 0.011553090543821686}. Best is trial 28 with value: 3.5922668290789055.
+Trial 38 finished with value: 3.595082498417324 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 0.00030894419349216073}. Best is trial 28 with value: 3.5922668290789055.
+Trial 39 finished with value: 3.6600697854358137 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 0.00010567052433333917}. Best is trial 28 with value: 3.5922668290789055.
+Trial 40 finished with value: 7.456175771078665 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 1.7537859087344145e-05}. Best is trial 28 with value: 3.5922668290789055.
+Trial 41 finished with value: 3.5922665822067534 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0110388596323141e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 42 finished with value: 3.5924146699352555 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.59987029191098e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 43 finished with value: 3.59226747233233 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0267858947561378e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 44 finished with value: 3.5923746865577315 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 1.7779132095794844e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 45 finished with value: 3.680139015281347 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.0143544786960975e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 46 finished with value: 3.5924141268947807 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.5901653818285164e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 47 finished with value: 4.247022901092399 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 8.371960389324216e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 48 finished with value: 3.593701244260184 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.00024954999734991853}. Best is trial 41 with value: 3.5922665822067534.
+Trial 49 finished with value: 3.592377813869697 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 1.8114761102802154e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 50 finished with value: 3.733623641876162 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.03968283101004083}. Best is trial 41 with value: 3.5922665822067534.
+Trial 51 finished with value: 3.59228357022058 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3117265479939803e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 52 finished with value: 3.5922675918117877 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0288988581430703e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 53 finished with value: 3.592344275051828 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.369777426787347e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 54 finished with value: 3.5922964351821287 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5387454388713986e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 55 finished with value: 3.680393961915365 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'elasticnet', 'alpha': 5.2358286511536266e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 56 finished with value: 3.5923788757356463 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.9647562967802193e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 57 finished with value: 3.973935511328681 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.1200124815618305}. Best is trial 41 with value: 3.5922665822067534.
+Trial 58 finished with value: 3.5922713921496294 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0961931493295987e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 59 finished with value: 3.592302976388411 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.6528133430346868e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 60 finished with value: 3.6024589611839133 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 0.0011677515340265674}. Best is trial 41 with value: 3.5922665822067534.
+Trial 61 finished with value: 3.592266777068212 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0144873280429508e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 62 finished with value: 3.5923328172414 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.172308842545906e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 63 finished with value: 3.5922676314027884 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0295990100479951e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 64 finished with value: 3.5925417339894685 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 5.895158758126859e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 65 finished with value: 4.242223917707756 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 3.424235234087327e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 66 finished with value: 3.605175180102671 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.002889616727942552}. Best is trial 41 with value: 3.5922665822067534.
+Trial 67 finished with value: 7.454609204739652 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 1.5097196784931848e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 68 finished with value: 3.5923472058681414 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.4200128576371184e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 69 finished with value: 3.592302861032503 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 1.0071083096870631e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 70 finished with value: 3.6801552833794853 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 4.673495150953694e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 71 finished with value: 3.592284100915883 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3211579557512405e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 72 finished with value: 3.5922948972145377 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5118895232405056e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 73 finished with value: 3.5922669813805763 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0181025512191343e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 74 finished with value: 3.592382636653852 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.03012964677911e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 75 finished with value: 3.5923309930462346 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.1407188474642204e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 76 finished with value: 3.592333094230347 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 1.4140918955498978e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 77 finished with value: 3.5923211381301714 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.9694915171655324e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 78 finished with value: 7.493962157657177 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 7.811501703280326e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 79 finished with value: 3.592401579874408 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.3657386859305495e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 80 finished with value: 4.2401007482457365 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.007127250777793e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 81 finished with value: 3.5922857603735077 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3506282766135589e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 82 finished with value: 3.592326565843983 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.0638244696244568e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 83 finished with value: 3.5922685035531607 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0450312687473792e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 84 finished with value: 3.644428471399352 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.009159267466911546}. Best is trial 41 with value: 3.5922665822067534.
+Trial 85 finished with value: 3.592285857207142 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3523461495735916e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 86 finished with value: 3.5924583955488236 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 2.6763442342554266e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 87 finished with value: 3.592450867066333 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 4.2530672795790564e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 88 finished with value: 3.5923099818240822 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.7749811818461886e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 89 finished with value: 3.680139037050698 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.0193217916221726e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 90 finished with value: 3.5924546908563793 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 2.8000917529028757e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 91 finished with value: 3.5922667037986207 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0131907038847051e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 92 finished with value: 3.592285700386771 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.349564074366483e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 93 finished with value: 3.592310209132589 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.7789515888504826e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 94 finished with value: 3.592279560436565 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2405444481122842e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 95 finished with value: 3.592316452457946 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.8881047226562353e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 96 finished with value: 3.5923347046145357 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.2048563892983675e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 97 finished with value: 3.592437286006362 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 4.008067817979496e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 98 finished with value: 7.453355605399919 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 1.3134321936190602e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 99 finished with value: 4.240402381031872 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.564430093023642e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 100 finished with value: 3.5924565925271494 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 2.6569916777068075e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 101 finished with value: 3.5922690716398704 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0550935638438028e-05}. Best is trial 41 with value: 3.5922665822067534.
+Trial 102 finished with value: 3.5951522488150096 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.000494648431729543}. Best is trial 41 with value: 3.5922665822067534.
+Trial 103 finished with value: 3.592266238698631 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0049592797682412e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 104 finished with value: 3.5922994242694086 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5908945183159744e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 105 finished with value: 3.5922796915554907 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.242871998361521e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 106 finished with value: 3.592329028261502 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.1066744517026712e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 107 finished with value: 3.5922785892089832 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2232932645491158e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 108 finished with value: 3.5923036577536194 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.6646867980331082e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 109 finished with value: 3.6801459879024288 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 2.5463003212977922e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 110 finished with value: 3.592299298993354 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 1.028996549437306e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 111 finished with value: 3.592268276597731 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0410152452621357e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 112 finished with value: 3.592299769992816 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.596922167818663e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 113 finished with value: 5.03063956799946 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.7615311842089312}. Best is trial 103 with value: 3.592266238698631.
+Trial 114 finished with value: 3.592283208641337 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3053016339716091e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 115 finished with value: 3.5923885121883687 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.132589850038633e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 116 finished with value: 3.5922669707695425 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0179147896318304e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 117 finished with value: 3.5923203309363765 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.95546861724296e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 118 finished with value: 3.5922919926486414 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.4608986727870042e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 119 finished with value: 7.4597334890494675 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 2.2907834181030186e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 120 finished with value: 4.24166570698789 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.0205442016810267e-05}. Best is trial 103 with value: 3.592266238698631.
+Trial 121 finished with value: 3.5922660449976904 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0015308079199231e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 122 finished with value: 3.592278982613975 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2302822411294295e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 123 finished with value: 3.5923092787808235 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.7627034958616425e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 124 finished with value: 3.5922848640599865 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3347191678563653e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 125 finished with value: 3.592266610622751 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.011541753992191e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 126 finished with value: 3.592358585667843 and parameters: {'loss': 'squared_error', 'penalty': 'l2', 'alpha': 1.60511773866708e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 127 finished with value: 3.592325774337945 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.050048596888895e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 128 finished with value: 3.592266742622477 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0138777736038033e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 129 finished with value: 3.592281648758411 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.277609392370802e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 130 finished with value: 3.592417910369131 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 3.657800306616154e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 131 finished with value: 3.5922689947608264 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0537319573612513e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 132 finished with value: 3.5922907695038084 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.4393100171166368e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 133 finished with value: 3.5923077637986287 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.736241061965801e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 134 finished with value: 3.5922667668213655 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0143060082901209e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 135 finished with value: 3.5922660519828398 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.001654445586025e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 136 finished with value: 3.9215641457038934 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.09405280267044344}. Best is trial 121 with value: 3.5922660449976904.
+Trial 137 finished with value: 3.592442477837203 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 2.6608229758727208e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 138 finished with value: 3.6801401011095214 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.2554478415643827e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 139 finished with value: 3.592323470074979 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.010011067692193e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 140 finished with value: 3.592299513555504 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.592451046421538e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 141 finished with value: 3.5922663038818086 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0061129709384876e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 142 finished with value: 3.592266377578079 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.007417344046473e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 143 finished with value: 3.592280120778804 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2504899858220279e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 144 finished with value: 3.592267189011166 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0217753713268232e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 145 finished with value: 3.59226619720704 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0042249341171704e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 146 finished with value: 3.5922949973012828 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5136382993935932e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 147 finished with value: 3.5922838786294093 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3172067738654907e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 148 finished with value: 3.592344056456993 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.3660216670948257e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 149 finished with value: 3.5923127655425864 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.8236745475562793e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 150 finished with value: 3.592279282419933 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.235607717392386e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 151 finished with value: 3.5922667411905587 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0138524338165097e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 152 finished with value: 3.592267519331345 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0276170597392664e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 153 finished with value: 3.5922668052201354 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0149854431687135e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 154 finished with value: 3.592295149685524 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5163006934473764e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 155 finished with value: 3.592282006526542 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.283958802206182e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 156 finished with value: 7.457044003939876 and parameters: {'loss': 'huber', 'penalty': 'l1', 'alpha': 1.88535157968532e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 157 finished with value: 3.5922668633969552 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0160148485864608e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 158 finished with value: 4.241684894884106 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l2', 'alpha': 1.5110813791103533e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 159 finished with value: 3.5922663001543116 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.006046996097954e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 160 finished with value: 3.6724985871880023 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.015254862156410101}. Best is trial 121 with value: 3.5922660449976904.
+Trial 161 finished with value: 3.5922849743172627 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3366769772985887e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 162 finished with value: 3.5922808195293046 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2628913837878189e-05}. Best is trial 121 with value: 3.5922660449976904.
+Trial 163 finished with value: 3.5922659920973175 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0005945084637877e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 164 finished with value: 3.6081927917037655 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.003583796568110399}. Best is trial 163 with value: 3.5922659920973175.
+Trial 165 finished with value: 3.592312369772072 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.8167485601783693e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 166 finished with value: 3.5923383724166933 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.2681861967497902e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 167 finished with value: 3.5922961730309284 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5341703221829646e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 168 finished with value: 3.5922981941011116 and parameters: {'loss': 'squared_error', 'penalty': 'elasticnet', 'alpha': 1.0164083141656306e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 169 finished with value: 3.592266175748165 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0038451260850455e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 170 finished with value: 3.5922788631459306 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2281597299016696e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 171 finished with value: 3.592266060407636 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0018035652855186e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 172 finished with value: 3.5922800304011084 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2488859860132665e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 173 finished with value: 3.592298803174643 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.580066405854567e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 174 finished with value: 3.5922777939041155 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2092180101251916e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 175 finished with value: 3.592314554458883 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.854965089157029e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 176 finished with value: 3.6801391781167796 and parameters: {'loss': 'squared_epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.0514030586399815e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 177 finished with value: 3.5922944650757023 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5043391339434655e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 178 finished with value: 3.5922846815426652 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3314757708069222e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 179 finished with value: 3.5923276710361924 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.083072741761419e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 180 finished with value: 3.592276865550418 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.1928195474981745e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 181 finished with value: 3.5922686468611102 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.047569249042938e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 182 finished with value: 3.5922670857509864 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0199490538213565e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 183 finished with value: 3.592298509476288 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.5749428016255116e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 184 finished with value: 3.592266707988962 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0132648610047692e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 185 finished with value: 3.592285719845603 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.3499092828548277e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 186 finished with value: 3.5922672791701276 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0233698651595676e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 187 finished with value: 3.598464403022585 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 0.0011657870571961688}. Best is trial 163 with value: 3.5922659920973175.
+Trial 188 finished with value: 3.5922922987251824 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.466298801831951e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 189 finished with value: 7.451410904936425 and parameters: {'loss': 'huber', 'penalty': 'l2', 'alpha': 1.777548645792568e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 190 finished with value: 3.5922790180784423 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2309123875070668e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 191 finished with value: 3.592267673951491 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0303514773276515e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 192 finished with value: 3.59228284501994 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.2988414937044586e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 193 finished with value: 3.592267337643075 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0244039612196502e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 194 finished with value: 3.5923005688301033 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.6108437998369438e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 195 finished with value: 4.2408839260141615 and parameters: {'loss': 'epsilon_insensitive', 'penalty': 'l1', 'alpha': 1.0223991439888609e-05}. Best is trial 163 with value: 3.5922659920973175.
+Trial 196 finished with value: 3.592265989005951 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0005397860105164e-05}. Best is trial 196 with value: 3.592265989005951.
+Trial 197 finished with value: 3.5922899127189334 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.4241789835755298e-05}. Best is trial 196 with value: 3.592265989005951.
+Trial 198 finished with value: 3.592266531203407 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0101362031976916e-05}. Best is trial 196 with value: 3.592265989005951.
+Trial 199 finished with value: 3.5923245857667014 and parameters: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 2.0293802489778446e-05}. Best is trial 196 with value: 3.592265989005951.
+2025-03-02 21:35:56,292 - INFO - Best trial:
+2025-03-02 21:35:56,292 - INFO -   Value: 3.592265989005951
+2025-03-02 21:35:56,293 - INFO -   Params: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0005397860105164e-05}
+2025-03-02 21:35:56,293 - INFO - BEST TRIAL PARAMETERS: {'loss': 'squared_error', 'penalty': 'l1', 'alpha': 1.0005397860105164e-05}
+2025-03-02 21:35:56,304 - INFO - Hyperparameters saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/evaluation_genus_final/genus_exp/hyperparameters_genus_final.json
+2025-03-02 21:35:56,304 - INFO - Total number of observations: 6401
+2025-03-02 21:35:56,304 - INFO - Number of observations in 5% group: 320
+2025-03-02 21:35:56,304 - INFO - Number of observations in 10% group: 640
+2025-03-02 21:35:56,304 - INFO - Number of observations in 20% group: 1280
+2025-03-02 21:35:56,304 - INFO - Number of observations in training set: 5716
+2025-03-02 21:35:56,304 - INFO - Number of observations in testing set: 685
+2025-03-02 21:35:56,304 - INFO - During 5-fold cross-validation:
+2025-03-02 21:35:56,304 - INFO -   Number of observations in each training fold: 4572
+2025-03-02 21:35:56,304 - INFO -   Number of observations in each validation fold: 1144
+2025-03-02 21:35:56,304 - INFO -   CV training set 5% group: 228
+2025-03-02 21:35:56,305 - INFO -   CV training set 10% group: 457
+2025-03-02 21:35:56,305 - INFO -   CV training set 20% group: 914
+2025-03-02 21:35:56,305 - INFO -   CV validation set 5% group: 57
+2025-03-02 21:35:56,305 - INFO -   CV validation set 10% group: 114
+2025-03-02 21:35:56,305 - INFO -   CV validation set 20% group: 228
+2025-03-02 21:35:56,387 - INFO - Final model saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/models_final_genus/genus_exp/sgd_rmse/sgd_rmse.pkl
+2025-03-02 21:35:58,000 - INFO - Training Performance:
+2025-03-02 21:35:58,000 - INFO - RMSE: 6.1727
+2025-03-02 21:35:58,001 - INFO - MAE: 4.7726
+2025-03-02 21:35:58,001 - INFO - R2: 0.7190
+2025-03-02 21:35:58,001 - INFO - Adjusted R2: 0.7161
+2025-03-02 21:35:58,001 - INFO - Training Binned Performance:
+2025-03-02 21:35:58,001 - INFO - top_5%:
+2025-03-02 21:35:58,001 - INFO -   RMSE: 10.1830
+2025-03-02 21:35:58,001 - INFO -   MAE: 8.7378
+2025-03-02 21:35:58,001 - INFO -   R2: 0.1407
+2025-03-02 21:35:58,001 - INFO -   Adjusted R2: -0.0836
+2025-03-02 21:35:58,001 - INFO - top_10%:
+2025-03-02 21:35:58,001 - INFO -   RMSE: 9.2193
+2025-03-02 21:35:58,001 - INFO -   MAE: 7.8470
+2025-03-02 21:35:58,001 - INFO -   R2: 0.5844
+2025-03-02 21:35:58,001 - INFO -   Adjusted R2: 0.5365
+2025-03-02 21:35:58,001 - INFO - top_20%:
+2025-03-02 21:35:58,001 - INFO -   RMSE: 8.1256
+2025-03-02 21:35:58,001 - INFO -   MAE: 6.6592
+2025-03-02 21:35:58,001 - INFO -   R2: 0.7256
+2025-03-02 21:35:58,001 - INFO -   Adjusted R2: 0.7107
+2025-03-02 21:35:58,001 - INFO - bottom_5%:
+2025-03-02 21:35:58,001 - INFO -   RMSE: 10.2087
+2025-03-02 21:35:58,001 - INFO -   MAE: 9.0086
+2025-03-02 21:35:58,002 - INFO -   R2: -6.0341
+2025-03-02 21:35:58,002 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:58,002 - INFO - bottom_10%:
+2025-03-02 21:35:58,002 - INFO -   RMSE: 8.3707
+2025-03-02 21:35:58,002 - INFO -   MAE: 6.7944
+2025-03-02 21:35:58,002 - INFO -   R2: -2.9060
+2025-03-02 21:35:58,002 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:58,002 - INFO - bottom_20%:
+2025-03-02 21:35:58,002 - INFO -   RMSE: 6.8383
+2025-03-02 21:35:58,002 - INFO -   MAE: 5.2511
+2025-03-02 21:35:58,002 - INFO -   R2: -1.9041
+2025-03-02 21:35:58,002 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:58,948 - INFO - Testing Performance:
+2025-03-02 21:35:58,948 - INFO - RMSE: 6.8501
+2025-03-02 21:35:58,948 - INFO - MAE: 5.0806
+2025-03-02 21:35:58,948 - INFO - R2: 0.7449
+2025-03-02 21:35:58,948 - INFO - Adjusted R2: 0.7208
+2025-03-02 21:35:58,948 - INFO - Testing Binned Performance:
+2025-03-02 21:35:58,948 - INFO - top_5%:
+2025-03-02 21:35:58,948 - INFO -   RMSE: 10.3590
+2025-03-02 21:35:58,948 - INFO -   MAE: 8.4164
+2025-03-02 21:35:58,948 - INFO -   R2: -4.6534
+2025-03-02 21:35:58,948 - INFO -   Adjusted R2: -4.6534
+2025-03-02 21:35:58,948 - INFO - top_10%:
+2025-03-02 21:35:58,948 - INFO -   RMSE: 11.7713
+2025-03-02 21:35:58,948 - INFO -   MAE: 9.7865
+2025-03-02 21:35:58,948 - INFO -   R2: -1.4609
+2025-03-02 21:35:58,948 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:58,948 - INFO - top_20%:
+2025-03-02 21:35:58,948 - INFO -   RMSE: 9.4957
+2025-03-02 21:35:58,948 - INFO -   MAE: 7.5088
+2025-03-02 21:35:58,948 - INFO -   R2: 0.5576
+2025-03-02 21:35:58,949 - INFO -   Adjusted R2: 0.2185
+2025-03-02 21:35:58,949 - INFO - bottom_5%:
+2025-03-02 21:35:58,949 - INFO -   RMSE: 13.2843
+2025-03-02 21:35:58,949 - INFO -   MAE: 11.0531
+2025-03-02 21:35:58,949 - INFO -   R2: -6.5522
+2025-03-02 21:35:58,949 - INFO -   Adjusted R2: -6.5522
+2025-03-02 21:35:58,949 - INFO - bottom_10%:
+2025-03-02 21:35:58,949 - INFO -   RMSE: 10.2646
+2025-03-02 21:35:58,949 - INFO -   MAE: 7.9691
+2025-03-02 21:35:58,949 - INFO -   R2: -4.0442
+2025-03-02 21:35:58,949 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:58,949 - INFO - bottom_20%:
+2025-03-02 21:35:58,949 - INFO -   RMSE: 7.6830
+2025-03-02 21:35:58,949 - INFO -   MAE: 5.3446
+2025-03-02 21:35:58,949 - INFO -   R2: -2.3165
+2025-03-02 21:35:58,949 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:59,982 - INFO - Cross-Validation Performance:
+2025-03-02 21:35:59,983 - INFO - RMSE: 6.3124
+2025-03-02 21:35:59,983 - INFO - MAE: 4.8926
+2025-03-02 21:35:59,983 - INFO - R2: 0.7062
+2025-03-02 21:35:59,983 - INFO - Adjusted R2: 0.7031
+2025-03-02 21:35:59,983 - INFO - Cross-Validation Binned Performance:
+2025-03-02 21:35:59,983 - INFO - top_5%:
+2025-03-02 21:35:59,983 - INFO -   RMSE: 10.6243
+2025-03-02 21:35:59,983 - INFO -   MAE: 9.2838
+2025-03-02 21:35:59,983 - INFO -   R2: 0.0647
+2025-03-02 21:35:59,984 - INFO -   Adjusted R2: -0.1795
+2025-03-02 21:35:59,984 - INFO - top_10%:
+2025-03-02 21:35:59,984 - INFO -   RMSE: 9.5033
+2025-03-02 21:35:59,984 - INFO -   MAE: 8.1148
+2025-03-02 21:35:59,984 - INFO -   R2: 0.5584
+2025-03-02 21:35:59,984 - INFO -   Adjusted R2: 0.5075
+2025-03-02 21:35:59,984 - INFO - top_20%:
+2025-03-02 21:35:59,984 - INFO -   RMSE: 8.3436
+2025-03-02 21:35:59,984 - INFO -   MAE: 6.8383
+2025-03-02 21:35:59,984 - INFO -   R2: 0.7107
+2025-03-02 21:35:59,984 - INFO -   Adjusted R2: 0.6949
+2025-03-02 21:35:59,985 - INFO - bottom_5%:
+2025-03-02 21:35:59,985 - INFO -   RMSE: 10.2100
+2025-03-02 21:35:59,985 - INFO -   MAE: 8.9622
+2025-03-02 21:35:59,985 - INFO -   R2: -6.0358
+2025-03-02 21:35:59,985 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:59,985 - INFO - bottom_10%:
+2025-03-02 21:35:59,985 - INFO -   RMSE: 8.3792
+2025-03-02 21:35:59,985 - INFO -   MAE: 6.7982
+2025-03-02 21:35:59,985 - INFO -   R2: -2.9139
+2025-03-02 21:35:59,985 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:35:59,985 - INFO - bottom_20%:
+2025-03-02 21:35:59,985 - INFO -   RMSE: 7.0000
+2025-03-02 21:35:59,986 - INFO -   MAE: 5.3697
+2025-03-02 21:35:59,986 - INFO -   R2: -2.0431
+2025-03-02 21:35:59,986 - INFO -   Adjusted R2: -1.0000

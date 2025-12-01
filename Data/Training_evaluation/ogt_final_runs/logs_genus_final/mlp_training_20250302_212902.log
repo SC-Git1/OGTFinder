@@ -1,0 +1,283 @@
+2025-03-02 21:29:02,411 - INFO - MLP training script started
+A new study created in memory with name: no-name-e0cbe536-8377-4f4f-a8d9-382c7df54222
+2025-03-02 21:29:02,524 - INFO - Starting Optuna hyperparameter optimization
+Trial 0 finished with value: 3.39320077789879 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'tanh', 'alpha': 0.002340068211707544, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.004544379472631879}. Best is trial 0 with value: 3.39320077789879.
+Trial 1 finished with value: 3.2314380228349138 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'logistic', 'alpha': 0.00018148320229297347, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.0003362047157988745}. Best is trial 1 with value: 3.2314380228349138.
+Trial 2 finished with value: 120086694070.39438 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'tanh', 'alpha': 0.0012272327169562005, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 0.03714886464996277}. Best is trial 1 with value: 3.2314380228349138.
+Trial 3 finished with value: 4.092470805854044 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.41376326892973625, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.09976201827954728}. Best is trial 1 with value: 3.2314380228349138.
+Trial 4 finished with value: 3.2776840783978827 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'alpha': 0.13212546030296157, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0004826425521306595}. Best is trial 1 with value: 3.2314380228349138.
+Trial 5 finished with value: 3.1844389176688686 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'alpha': 6.987897689755418e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00014276502304733503}. Best is trial 5 with value: 3.1844389176688686.
+Trial 6 finished with value: 4.006509580111385 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.02975530418950746, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.013459497274185307}. Best is trial 5 with value: 3.1844389176688686.
+Trial 7 finished with value: 3.203027643333697 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'alpha': 3.33347376049341e-05, 'learning_rate': 'constant', 'solver': 'adam', 'learning_rate_init': 4.960875897865128e-05}. Best is trial 5 with value: 3.1844389176688686.
+Trial 8 finished with value: 3.2108318674667764 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'logistic', 'alpha': 0.00028749384729347767, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.0009195821437923199}. Best is trial 5 with value: 3.1844389176688686.
+Trial 9 finished with value: 4.087913172172695 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'relu', 'alpha': 0.003620155790627051, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 0.00045542141822503416}. Best is trial 5 with value: 3.1844389176688686.
+Trial 10 finished with value: 3.107524668731916 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 3.30709465960027e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 1.224719141078544e-05}. Best is trial 10 with value: 3.107524668731916.
+Trial 11 finished with value: 3.106574198410203 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 2.2112985557051793e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 1.0329719623774597e-05}. Best is trial 11 with value: 3.106574198410203.
+Trial 12 finished with value: 3.1052888034284623 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 1.0283541927478254e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 1.7854302360950885e-05}. Best is trial 12 with value: 3.1052888034284623.
+Trial 13 finished with value: 3.114740824101643 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 1.2879705223707497e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 1.0476810482720233e-05}. Best is trial 12 with value: 3.1052888034284623.
+Trial 14 finished with value: 3.1358150117071135 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 1.0259741046245322e-05, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 4.3136740999950454e-05}. Best is trial 12 with value: 3.1052888034284623.
+Trial 15 finished with value: 3.0872022858382904 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 0.0003712746782652302, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 4.5521510119483045e-05}. Best is trial 15 with value: 3.0872022858382904.
+Trial 16 finished with value: 3.1029486936266375 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 0.0004746547923473069, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 6.0957922325369805e-05}. Best is trial 15 with value: 3.0872022858382904.
+Trial 17 finished with value: 3.09596409450161 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 0.009634431354127377, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00010041426572503359}. Best is trial 15 with value: 3.0872022858382904.
+Trial 18 finished with value: 3.1602239190017425 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'relu', 'alpha': 0.010313327222806295, 'learning_rate': 'invscaling', 'solver': 'adam', 'learning_rate_init': 0.0025549423242236732}. Best is trial 15 with value: 3.0872022858382904.
+Trial 19 finished with value: 3.040876609797821 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.012108266719191931, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00013750832018117183}. Best is trial 19 with value: 3.040876609797821.
+Trial 20 finished with value: 3.057258100383451 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.06495002547345502, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00018604641897282138}. Best is trial 19 with value: 3.040876609797821.
+Trial 21 finished with value: 3.0895880623697094 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.08670773753477291, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00014504171739551053}. Best is trial 19 with value: 3.040876609797821.
+Trial 22 finished with value: 3.0717776876171903 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.029387787015634874, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.0002338013643210598}. Best is trial 19 with value: 3.040876609797821.
+Trial 23 finished with value: 3.1332832332102756 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.028249787006556074, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.001594435288618777}. Best is trial 19 with value: 3.040876609797821.
+Trial 24 finished with value: 3.086579326337042 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.5781232501276581, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00020074838663763607}. Best is trial 19 with value: 3.040876609797821.
+Trial 25 finished with value: 3.621872138888597 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.1182629615413804, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 0.0008473734373390898}. Best is trial 19 with value: 3.040876609797821.
+Trial 26 finished with value: 3.1466744035416285 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.03378715861186469, 'learning_rate': 'constant', 'solver': 'adam', 'learning_rate_init': 0.00036950638451609406}. Best is trial 19 with value: 3.040876609797821.
+Trial 27 finished with value: 3.067737409371369 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.008574472893769475, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 8.589060587393402e-05}. Best is trial 19 with value: 3.040876609797821.
+Trial 28 finished with value: 3.135480496292602 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.008807009403681319, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 2.9010682470038827e-05}. Best is trial 19 with value: 3.040876609797821.
+Trial 29 finished with value: 8.248745140199066 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0022722457082916185, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 2.1649005706955032e-05}. Best is trial 19 with value: 3.040876609797821.
+Trial 30 finished with value: 3.4809903648125364 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'tanh', 'alpha': 0.004150152536221105, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.005819858217064376}. Best is trial 19 with value: 3.040876609797821.
+Trial 31 finished with value: 3.057628694639196 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.06937606458780778, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00021030281086041434}. Best is trial 19 with value: 3.040876609797821.
+Trial 32 finished with value: 3.1220337596636605 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.05729302889471767, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 9.523896065243774e-05}. Best is trial 19 with value: 3.040876609797821.
+Trial 33 finished with value: 3.1629543328760783 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'alpha': 0.288195766879784, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 0.00027536791317185437}. Best is trial 19 with value: 3.040876609797821.
+Trial 34 finished with value: 3.1252328876582367 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.24919964795897487, 'learning_rate': 'constant', 'solver': 'adam', 'learning_rate_init': 0.0001043019463028852}. Best is trial 19 with value: 3.040876609797821.
+Trial 35 finished with value: 3.2950688851425496 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'logistic', 'alpha': 0.01515964176971205, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005278397808639589}. Best is trial 19 with value: 3.040876609797821.
+Trial 36 finished with value: 3.181281429571743 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.8325450511096423, 'learning_rate': 'constant', 'solver': 'sgd', 'learning_rate_init': 8.205435445961381e-05}. Best is trial 19 with value: 3.040876609797821.
+Trial 37 finished with value: 3.0573483053339467 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.000975158562557003, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00018123167553749187}. Best is trial 19 with value: 3.040876609797821.
+Trial 38 finished with value: 3.1337753936272223 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'logistic', 'alpha': 0.0013864100235365271, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.00019129234270252646}. Best is trial 19 with value: 3.040876609797821.
+Trial 39 finished with value: 3.576755887374574 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.05597859375752595, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.000646439770670944}. Best is trial 19 with value: 3.040876609797821.
+Trial 40 finished with value: 3.272983508106454 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'alpha': 0.00014020503857648043, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0020042230620961874}. Best is trial 19 with value: 3.040876609797821.
+Trial 41 finished with value: 3.0248311083846375 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0007817191735846055, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0001718476001148702}. Best is trial 41 with value: 3.0248311083846375.
+Trial 42 finished with value: 3.033148072634254 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0010102644063816448, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0003236495711177244}. Best is trial 41 with value: 3.0248311083846375.
+Trial 43 finished with value: 3.041292703681461 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0006220504190725353, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0003261281686169425}. Best is trial 41 with value: 3.0248311083846375.
+Trial 44 finished with value: 3.090830714800963 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0007638706818841885, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00038396021382074743}. Best is trial 41 with value: 3.0248311083846375.
+Trial 45 finished with value: 3.099964842106639 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'logistic', 'alpha': 0.00015736806124971118, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0014162634733571342}. Best is trial 41 with value: 3.0248311083846375.
+Trial 46 finished with value: 3.0750750739001385 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0020466548430041094, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0008261927517114588}. Best is trial 41 with value: 3.0248311083846375.
+Trial 47 finished with value: 3.4061939785280217 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.004483440402648759, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.03845404663279665}. Best is trial 41 with value: 3.0248311083846375.
+Trial 48 finished with value: 3.0400162840968923 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.00010356041387551175, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00027750883170974506}. Best is trial 41 with value: 3.0248311083846375.
+Trial 49 finished with value: 3.1515063919488755 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'logistic', 'alpha': 0.000527289104036747, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00028618313312105554}. Best is trial 41 with value: 3.0248311083846375.
+Trial 50 finished with value: 3.0919998046010178 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'relu', 'alpha': 9.753700521273985e-05, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005280175225895139}. Best is trial 41 with value: 3.0248311083846375.
+Trial 51 finished with value: 3.059379232214773 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0002922749091814493, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00013377339067782056}. Best is trial 41 with value: 3.0248311083846375.
+Trial 52 finished with value: 3.0803025473448704 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 5.522761446542598e-05, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00029252208255204287}. Best is trial 41 with value: 3.0248311083846375.
+Trial 53 finished with value: 3.0658025085674887 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0013669446426147168, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00014409357360669492}. Best is trial 41 with value: 3.0248311083846375.
+Trial 54 finished with value: 3.08811727555572 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0006838361905288081, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 6.289119256510933e-05}. Best is trial 41 with value: 3.0248311083846375.
+Trial 55 finished with value: 3.204772717197873 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0002571635028520824, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0012539500086953847}. Best is trial 41 with value: 3.0248311083846375.
+Trial 56 finished with value: 3.702681299766099 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 6.765389008440994e-05, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 0.0006887843075276811}. Best is trial 41 with value: 3.0248311083846375.
+Trial 57 finished with value: 3.0803369030552292 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0029305467477074216, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.000430798017103386}. Best is trial 41 with value: 3.0248311083846375.
+Trial 58 finished with value: 3.0972581371814805 and parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'alpha': 0.0002225798083712973, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 3.617170850934891e-05}. Best is trial 41 with value: 3.0248311083846375.
+Trial 59 finished with value: 3.2430772516704764 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.005386358945738551, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00014153832258223826}. Best is trial 41 with value: 3.0248311083846375.
+Trial 60 finished with value: 7.799096685782186 and parameters: {'hidden_layer_sizes': (50,), 'activation': 'relu', 'alpha': 0.018986251978714896, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 5.847134489944843e-05}. Best is trial 41 with value: 3.0248311083846375.
+Trial 61 finished with value: 3.0529762048213636 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0010334976587121998, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00017710868961250906}. Best is trial 41 with value: 3.0248311083846375.
+Trial 62 finished with value: 3.05874353326738 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.00041513005597786556, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0003345112468202944}. Best is trial 41 with value: 3.0248311083846375.
+Trial 63 finished with value: 3.0543449181679336 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0019435475260919852, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00023995320446642968}. Best is trial 41 with value: 3.0248311083846375.
+Trial 64 finished with value: 3.0596310866093153 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0017797779397687342, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00011699821996181216}. Best is trial 41 with value: 3.0248311083846375.
+Trial 65 finished with value: 3.0351571426453967 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0008941805232512408, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0002202592874733369}. Best is trial 41 with value: 3.0248311083846375.
+Trial 66 finished with value: 3.0803160620434937 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0009859285765764988, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 6.741362327315506e-05}. Best is trial 41 with value: 3.0248311083846375.
+Trial 67 finished with value: 3.0911903503613973 and parameters: {'hidden_layer_sizes': (100,), 'activation': 'relu', 'alpha': 0.0007519307636560163, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00017785245733750282}. Best is trial 41 with value: 3.0248311083846375.
+Trial 68 failed with parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 0.006246972158910217, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.003860138278534731} because of the following error: The value nan is not acceptable.
+Trial 68 failed with value np.float64(nan).
+Trial 69 failed with parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 2.0765943082884235e-05, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.003922030474579693} because of the following error: The value nan is not acceptable.
+Trial 69 failed with value np.float64(nan).
+Trial 70 finished with value: 3.1933997401455754 and parameters: {'hidden_layer_sizes': (100, 50), 'activation': 'relu', 'alpha': 0.00629192707539258, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0010820019630234802}. Best is trial 41 with value: 3.0248311083846375.
+Trial 71 finished with value: 3.0642620773263864 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 1.923261902233256e-05, 'learning_rate': 'adaptive', 'solver': 'adam', 'learning_rate_init': 0.0004794310419386769}. Best is trial 41 with value: 3.0248311083846375.
+Trial 72 finished with value: 3.219304297554646 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'logistic', 'alpha': 0.0031422073658233618, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0003334227338144918}. Best is trial 41 with value: 3.0248311083846375.
+Trial 73 finished with value: 3.069920659812964 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0005344179915889712, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00023701540482763797}. Best is trial 41 with value: 3.0248311083846375.
+Trial 74 finished with value: 3.0682328501057485 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.001688366598597759, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.00024135407707948453}. Best is trial 41 with value: 3.0248311083846375.
+Trial 75 finished with value: 3.026992702132998 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0009473812341250165, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0006364968886956923}. Best is trial 41 with value: 3.0248311083846375.
+Trial 76 failed with parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.00034963350119210064, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0034461515209656813} because of the following error: The value nan is not acceptable.
+Trial 76 failed with value np.float64(nan).
+Trial 77 finished with value: 3.0829082462381088 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0003582050133134406, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0008041748114183698}. Best is trial 41 with value: 3.0248311083846375.
+Trial 78 finished with value: 3.0423160054879106 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.001008340394182237, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005891428443016469}. Best is trial 41 with value: 3.0248311083846375.
+Trial 79 finished with value: 3.536267620650212 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'tanh', 'alpha': 0.002626555814835315, 'learning_rate': 'invscaling', 'solver': 'sgd', 'learning_rate_init': 0.002549946391650124}. Best is trial 41 with value: 3.0248311083846375.
+Trial 80 finished with value: 3.0117294693949335 and parameters: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0006571277635464266, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005801245597469199}. Best is trial 80 with value: 3.0117294693949335.
+Trial 81 failed with parameters: {'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'alpha': 0.0006170042539039201, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.004187622917618632} because of the following error: ValueError('\nAll the 5 fits failed.\nIt is very likely that your model is misconfigured.\nYou can try to debug the error by setting error_score=\'raise\'.\n\nBelow are more details about the failures:\n--------------------------------------------------------------------------------\n5 fits failed with the following error:\nTraceback (most recent call last):\n  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 888, in _fit_and_score\n    estimator.fit(X_train, y_train, **fit_params)\n  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 751, in fit\n    return self._fit(X, y, incremental=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 495, in _fit\n    raise ValueError(\nValueError: Solver produced non-finite parameter weights. The input data may contain large values and need to be preprocessed.\n').
+Traceback (most recent call last):
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/PhD/ogt_final_runs/src/ml/reg_mlp.py", line 243, in <lambda>
+    lambda trial: objective(trial, X_train, y_train, groups_train),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/PhD/ogt_final_runs/src/ml/reg_mlp.py", line 181, in objective
+    score = cross_val_score(
+            ^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 443, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 529, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 5 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+5 fits failed with the following error:
+Traceback (most recent call last):
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 751, in fit
+    return self._fit(X, y, incremental=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 495, in _fit
+    raise ValueError(
+ValueError: Solver produced non-finite parameter weights. The input data may contain large values and need to be preprocessed.
+
+Trial 81 failed with value None.
+2025-03-02 21:54:49,749 - ERROR - An error occurred during optimization: 
+All the 5 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+5 fits failed with the following error:
+Traceback (most recent call last):
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 751, in fit
+    return self._fit(X, y, incremental=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vsc-hard-mounts/leuven-data/345/vsc34502/miniforge3/envs/ogt_ml_env/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 495, in _fit
+    raise ValueError(
+ValueError: Solver produced non-finite parameter weights. The input data may contain large values and need to be preprocessed.
+
+2025-03-02 21:54:49,749 - INFO - Best trial:
+2025-03-02 21:54:49,749 - INFO -   Value: 3.0117294693949335
+2025-03-02 21:54:49,750 - INFO -   Params: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0006571277635464266, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005801245597469199}
+2025-03-02 21:54:49,750 - INFO - BEST TRIAL PARAMETERS: {'hidden_layer_sizes': (50, 50), 'activation': 'relu', 'alpha': 0.0006571277635464266, 'learning_rate': 'adaptive', 'solver': 'sgd', 'learning_rate_init': 0.0005801245597469199}
+2025-03-02 21:54:49,755 - INFO - Hyperparameters saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/evaluation_genus_final/genus_exp/hyperparameters_genus_final.json
+2025-03-02 21:54:51,654 - INFO - Final model saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/models_final_genus/genus_exp/mlp_rmse/mlp_rmse.pkl
+2025-03-02 21:54:51,654 - INFO - Total number of observations: 6401
+2025-03-02 21:54:51,654 - INFO - Number of observations in 5% group: 320
+2025-03-02 21:54:51,654 - INFO - Number of observations in 10% group: 640
+2025-03-02 21:54:51,654 - INFO - Number of observations in 20% group: 1280
+2025-03-02 21:54:51,654 - INFO - Number of observations in training set: 5716
+2025-03-02 21:54:51,654 - INFO - Number of observations in testing set: 685
+2025-03-02 21:54:51,654 - INFO - During 5-fold cross-validation:
+2025-03-02 21:54:51,654 - INFO -   Number of observations in each training fold: 4572
+2025-03-02 21:54:51,654 - INFO -   Number of observations in each validation fold: 1144
+2025-03-02 21:54:51,654 - INFO -   CV training set 5% group: 228
+2025-03-02 21:54:51,654 - INFO -   CV training set 10% group: 457
+2025-03-02 21:54:51,654 - INFO -   CV training set 20% group: 914
+2025-03-02 21:54:51,654 - INFO -   CV validation set 5% group: 57
+2025-03-02 21:54:51,654 - INFO -   CV validation set 10% group: 114
+2025-03-02 21:54:51,654 - INFO -   CV validation set 20% group: 228
+2025-03-02 21:55:07,789 - INFO - Training Performance:
+2025-03-02 21:55:07,789 - INFO - RMSE: 4.0742
+2025-03-02 21:55:07,789 - INFO - MAE: 3.0499
+2025-03-02 21:55:07,789 - INFO - R2: 0.8776
+2025-03-02 21:55:07,789 - INFO - Adjusted R2: 0.8763
+2025-03-02 21:55:07,789 - INFO - Training Binned Performance:
+2025-03-02 21:55:07,789 - INFO - top_5%:
+2025-03-02 21:55:07,789 - INFO -   RMSE: 5.2235
+2025-03-02 21:55:07,789 - INFO -   MAE: 3.7620
+2025-03-02 21:55:07,789 - INFO -   R2: 0.7739
+2025-03-02 21:55:07,789 - INFO -   Adjusted R2: 0.7149
+2025-03-02 21:55:07,789 - INFO - top_10%:
+2025-03-02 21:55:07,789 - INFO -   RMSE: 5.8641
+2025-03-02 21:55:07,789 - INFO -   MAE: 4.5133
+2025-03-02 21:55:07,789 - INFO -   R2: 0.8319
+2025-03-02 21:55:07,789 - INFO -   Adjusted R2: 0.8125
+2025-03-02 21:55:07,789 - INFO - top_20%:
+2025-03-02 21:55:07,789 - INFO -   RMSE: 5.2544
+2025-03-02 21:55:07,789 - INFO -   MAE: 4.0753
+2025-03-02 21:55:07,789 - INFO -   R2: 0.8853
+2025-03-02 21:55:07,789 - INFO -   Adjusted R2: 0.8790
+2025-03-02 21:55:07,789 - INFO - bottom_5%:
+2025-03-02 21:55:07,789 - INFO -   RMSE: 7.8689
+2025-03-02 21:55:07,789 - INFO -   MAE: 6.8012
+2025-03-02 21:55:07,789 - INFO -   R2: -3.1792
+2025-03-02 21:55:07,789 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:07,789 - INFO - bottom_10%:
+2025-03-02 21:55:07,789 - INFO -   RMSE: 6.2948
+2025-03-02 21:55:07,789 - INFO -   MAE: 5.0576
+2025-03-02 21:55:07,789 - INFO -   R2: -1.2089
+2025-03-02 21:55:07,789 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:07,789 - INFO - bottom_20%:
+2025-03-02 21:55:07,790 - INFO -   RMSE: 5.0449
+2025-03-02 21:55:07,790 - INFO -   MAE: 3.8479
+2025-03-02 21:55:07,790 - INFO -   R2: -0.5806
+2025-03-02 21:55:07,790 - INFO -   Adjusted R2: -0.6667
+2025-03-02 21:55:08,656 - INFO - Testing Performance:
+2025-03-02 21:55:08,657 - INFO - RMSE: 5.4378
+2025-03-02 21:55:08,657 - INFO - MAE: 3.8827
+2025-03-02 21:55:08,657 - INFO - R2: 0.8392
+2025-03-02 21:55:08,657 - INFO - Adjusted R2: 0.8241
+2025-03-02 21:55:08,657 - INFO - Testing Binned Performance:
+2025-03-02 21:55:08,657 - INFO - top_5%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 5.4490
+2025-03-02 21:55:08,657 - INFO -   MAE: 4.1931
+2025-03-02 21:55:08,657 - INFO -   R2: -0.5643
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: -0.5643
+2025-03-02 21:55:08,657 - INFO - top_10%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 8.4937
+2025-03-02 21:55:08,657 - INFO -   MAE: 6.2615
+2025-03-02 21:55:08,657 - INFO -   R2: -0.2813
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:08,657 - INFO - top_20%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 7.6618
+2025-03-02 21:55:08,657 - INFO -   MAE: 5.5983
+2025-03-02 21:55:08,657 - INFO -   R2: 0.7119
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: 0.4912
+2025-03-02 21:55:08,657 - INFO - bottom_5%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 11.1093
+2025-03-02 21:55:08,657 - INFO -   MAE: 9.3632
+2025-03-02 21:55:08,657 - INFO -   R2: -4.2817
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: -4.2817
+2025-03-02 21:55:08,657 - INFO - bottom_10%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 8.3202
+2025-03-02 21:55:08,657 - INFO -   MAE: 6.2393
+2025-03-02 21:55:08,657 - INFO -   R2: -2.3142
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:08,657 - INFO - bottom_20%:
+2025-03-02 21:55:08,657 - INFO -   RMSE: 6.2046
+2025-03-02 21:55:08,657 - INFO -   MAE: 4.2208
+2025-03-02 21:55:08,657 - INFO -   R2: -1.1630
+2025-03-02 21:55:08,657 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:25,716 - INFO - Cross-Validation Performance:
+2025-03-02 21:55:25,716 - INFO - RMSE: 5.0502
+2025-03-02 21:55:25,716 - INFO - MAE: 3.7570
+2025-03-02 21:55:25,716 - INFO - R2: 0.8119
+2025-03-02 21:55:25,716 - INFO - Adjusted R2: 0.8100
+2025-03-02 21:55:25,716 - INFO - Cross-Validation Binned Performance:
+2025-03-02 21:55:25,716 - INFO - top_5%:
+2025-03-02 21:55:25,716 - INFO -   RMSE: 7.6027
+2025-03-02 21:55:25,716 - INFO -   MAE: 5.6344
+2025-03-02 21:55:25,717 - INFO -   R2: 0.5210
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: 0.3960
+2025-03-02 21:55:25,717 - INFO - top_10%:
+2025-03-02 21:55:25,717 - INFO -   RMSE: 7.7688
+2025-03-02 21:55:25,717 - INFO -   MAE: 6.1232
+2025-03-02 21:55:25,717 - INFO -   R2: 0.7049
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: 0.6709
+2025-03-02 21:55:25,717 - INFO - top_20%:
+2025-03-02 21:55:25,717 - INFO -   RMSE: 6.7479
+2025-03-02 21:55:25,717 - INFO -   MAE: 5.3464
+2025-03-02 21:55:25,717 - INFO -   R2: 0.8108
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: 0.8005
+2025-03-02 21:55:25,717 - INFO - bottom_5%:
+2025-03-02 21:55:25,717 - INFO -   RMSE: 9.7214
+2025-03-02 21:55:25,717 - INFO -   MAE: 8.5300
+2025-03-02 21:55:25,717 - INFO -   R2: -5.3785
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:25,717 - INFO - bottom_10%:
+2025-03-02 21:55:25,717 - INFO -   RMSE: 7.7534
+2025-03-02 21:55:25,717 - INFO -   MAE: 6.2623
+2025-03-02 21:55:25,717 - INFO -   R2: -2.3511
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:55:25,717 - INFO - bottom_20%:
+2025-03-02 21:55:25,717 - INFO -   RMSE: 6.1964
+2025-03-02 21:55:25,717 - INFO -   MAE: 4.6807
+2025-03-02 21:55:25,717 - INFO -   R2: -1.3845
+2025-03-02 21:55:25,717 - INFO -   Adjusted R2: -1.0000

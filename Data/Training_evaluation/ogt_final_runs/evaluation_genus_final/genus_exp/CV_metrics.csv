@@ -1,0 +1,113 @@
+Model,Experiment,Dataset,Metric,Overall
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,RMSE,6.281998395413209
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,MAE,2.2045855871324243
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,R2,0.8288268627175629
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,Adjusted R2,0.8183717209128009
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,RMSE std,0.3542228709303751
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,MAE std,0.05956278384949458
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,R2 std,0.043792711542450104
+bayesian_ridge_rmse,genus_exp-bayesian_ridge_rmse,Cross-Validation,Adjusted R2 std,0.04682757862989682
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,RMSE,6.289147533751331
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,MAE,2.204469114457523
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,R2,0.8287297493027073
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,Adjusted R2,0.8182730548494306
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,RMSE std,0.35689088638932104
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,MAE std,0.060091319122931336
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,R2 std,0.04271594638198879
+huber_rmse,genus_exp-huber_rmse,Cross-Validation,Adjusted R2 std,0.045676308359993416
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,RMSE,5.84577083513048
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,MAE,2.0395556236276056
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,R2,0.8538265731928514
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,Adjusted R2,0.8450702650870013
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,RMSE std,0.32457470275463923
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,MAE std,0.05406487297166567
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,R2 std,0.03739718019962605
+knn_rmse,genus_exp-knn_rmse,Cross-Validation,Adjusted R2 std,0.03988689535669161
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,RMSE,6.281908759540239
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,MAE,2.2045626970205436
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,R2,0.8287941441892552
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,Adjusted R2,0.818335871517491
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,RMSE std,0.3548570426021474
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,MAE std,0.05994147606128773
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,R2 std,0.043968911265158936
+larslasso_rmse,genus_exp-larslasso_rmse,Cross-Validation,Adjusted R2 std,0.047017200609408824
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,RMSE,8.230816186727475
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,MAE,2.4663680179698786
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,R2,nan
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,Adjusted R2,nan
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,RMSE std,1.9028414412280772
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,MAE std,0.25332862307222875
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,R2 std,nan
+lars_rmse,genus_exp-lars_rmse,Cross-Validation,Adjusted R2 std,nan
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,RMSE,6.2815343411739075
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,MAE,2.2044961762207635
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,R2,0.8288148985072901
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,Adjusted R2,0.8183580787886239
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,RMSE std,0.35476775642994485
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,MAE std,0.05994399210429342
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,R2 std,0.04396322182716976
+pls_rmse,genus_exp-pls_rmse,Cross-Validation,Adjusted R2 std,0.04701084677694019
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,RMSE,5.344895283346937
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,MAE,1.9994437005349415
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,R2,0.8786726637913784
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,Adjusted R2,0.8715364595275903
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,RMSE std,0.1162386964351305
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,MAE std,0.010390059869446073
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,R2 std,0.031247661706458076
+kernel_ridge_rmse,genus_exp-kernel_ridge_rmse,Cross-Validation,Adjusted R2 std,0.03322806341104208
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,RMSE,6.281904967376608
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,MAE,2.204562674472186
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,R2,0.8287939759883608
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,Adjusted R2,0.8183356824320253
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,RMSE std,0.3548618067050759
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,MAE std,0.059945138203914915
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,R2 std,0.04397073158257892
+ridge_rmse,genus_exp-ridge_rmse,Cross-Validation,Adjusted R2 std,0.047019160539463103
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,RMSE,6.303318698722085
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,MAE,2.2112426744852614
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,R2,0.8279152552069377
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,Adjusted R2,0.8174030652605238
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,RMSE std,0.33777873426858956
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,MAE std,0.05444773201375182
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,R2 std,0.042640208170343426
+sgd_rmse,genus_exp-sgd_rmse,Cross-Validation,Adjusted R2 std,0.045603059221373844
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,RMSE,6.281900599025027
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,MAE,2.2045611951322717
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,R2,0.8287945394409058
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,Adjusted R2,0.8183362927747568
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,RMSE std,0.3548591273155798
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,MAE std,0.05994323419329489
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,R2 std,0.04396912746501454
+lasso_rmse,genus_exp-lasso_rmse,Cross-Validation,Adjusted R2 std,0.04701742868892046
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,RMSE,5.0073069452498125
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,MAE,1.9369446124026417
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,R2,0.8939284494601841
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,Adjusted R2,0.887748196001235
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,RMSE std,0.13413155754612088
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,MAE std,0.02464373189353587
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,R2 std,0.030328139832497655
+gaussian_process_rmse,genus_exp-gaussian_process_rmse,Cross-Validation,Adjusted R2 std,0.03223029224749123
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,RMSE,5.162295039899792
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,MAE,1.9901939400934556
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,R2,0.8863210501785834
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,Adjusted R2,0.8796569267654558
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,RMSE std,0.1604307239595646
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,MAE std,0.030564476991399737
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,R2 std,0.03406945755192762
+svr_rmse,genus_exp-svr_rmse,Cross-Validation,Adjusted R2 std,0.03623130718469606
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,RMSE,5.046455168182627
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,MAE,1.937985121944957
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,R2,0.8912384861179261
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,Adjusted R2,0.8848769772766358
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,RMSE std,0.19358140972050225
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,MAE std,0.03520849612737019
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,R2 std,0.03521652675235408
+mlp_rmse,genus_exp-mlp_rmse,Cross-Validation,Adjusted R2 std,0.03745196114988108
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,RMSE,6.281904965105481
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,MAE,2.204562673106138
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,R2,0.8287939761426838
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,Adjusted R2,0.8183356825981762
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,RMSE std,0.35486181298837577
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,MAE std,0.05994513991028597
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,R2 std,0.043970731383054865
+elastic_net_rmse,genus_exp-elastic_net_rmse,Cross-Validation,Adjusted R2 std,0.0470191603194185

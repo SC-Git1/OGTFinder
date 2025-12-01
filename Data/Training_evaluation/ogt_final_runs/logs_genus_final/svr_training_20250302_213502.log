@@ -1,0 +1,332 @@
+2025-03-02 21:35:02,713 - INFO - SVR training script started
+A new study created in memory with name: no-name-6f9d691d-a75b-48ed-91a6-4e4bc451d354
+2025-03-02 21:35:03,206 - INFO - Starting Optuna hyperparameter optimization
+Trial 0 finished with value: 10.345827523951089 and parameters: {'length_scale': 2.2493553784527185, 'noise_level': 62.5799181415716, 'C': 0.008724886784461724, 'epsilon': 0.0016559332201358842}. Best is trial 0 with value: 10.345827523951089.
+Trial 1 finished with value: 10.074695174321395 and parameters: {'length_scale': 0.06608087874024038, 'noise_level': 0.26561432768505955, 'C': 4.3271377269173374, 'epsilon': 2.4946097626738695}. Best is trial 1 with value: 10.074695174321395.
+Trial 2 finished with value: 10.13296436983917 and parameters: {'length_scale': 0.7859280943131404, 'noise_level': 6.2113113293831494, 'C': 0.0012460479050773578, 'epsilon': 5.7941760418551755}. Best is trial 1 with value: 10.074695174321395.
+Trial 3 finished with value: 5.608698817603769 and parameters: {'length_scale': 2.569177772598187, 'noise_level': 703.2509074451091, 'C': 2.09818238564467, 'epsilon': 1.0793147112052137}. Best is trial 3 with value: 5.608698817603769.
+Trial 4 finished with value: 9.821699220723783 and parameters: {'length_scale': 0.6260445796330237, 'noise_level': 0.7969235350605358, 'C': 2.2432180170603164, 'epsilon': 4.773456423279799}. Best is trial 3 with value: 5.608698817603769.
+Trial 5 finished with value: 9.788991730766979 and parameters: {'length_scale': 0.10764219677405451, 'noise_level': 0.2410841259504929, 'C': 63.76005913554834, 'epsilon': 0.01814832022929737}. Best is trial 3 with value: 5.608698817603769.
+Trial 6 finished with value: 10.110536636005431 and parameters: {'length_scale': 0.13448086001162296, 'noise_level': 118.30844294352649, 'C': 9.763757526058965, 'epsilon': 0.5250322636922197}. Best is trial 3 with value: 5.608698817603769.
+Trial 7 finished with value: 10.04691917575175 and parameters: {'length_scale': 0.33949276438266407, 'noise_level': 3.3620471579887417, 'C': 0.026861913260002496, 'epsilon': 5.027369033082316}. Best is trial 3 with value: 5.608698817603769.
+Trial 8 finished with value: 9.920088638095793 and parameters: {'length_scale': 0.09035398877937215, 'noise_level': 5.634907854647439, 'C': 26.163359811439783, 'epsilon': 0.02795153750110287}. Best is trial 3 with value: 5.608698817603769.
+Trial 9 finished with value: 8.791852903406847 and parameters: {'length_scale': 13.741287568977835, 'noise_level': 108.59619960372845, 'C': 0.12272327169562011, 'epsilon': 0.013453765015140316}. Best is trial 3 with value: 5.608698817603769.
+Trial 10 finished with value: 9.778266871906448 and parameters: {'length_scale': 32.153128605994674, 'noise_level': 435.9396774490222, 'C': 0.526442856431343, 'epsilon': 86.86060114827067}. Best is trial 3 with value: 5.608698817603769.
+Trial 11 finished with value: 8.256880644837752 and parameters: {'length_scale': 11.49334587476545, 'noise_level': 629.9043406853491, 'C': 0.14491886128470502, 'epsilon': 0.07426104672592895}. Best is trial 3 with value: 5.608698817603769.
+Trial 12 finished with value: 5.616809836973992 and parameters: {'length_scale': 5.139705293842711, 'noise_level': 904.9772017446464, 'C': 0.40603753075816645, 'epsilon': 0.23397446239772163}. Best is trial 3 with value: 5.608698817603769.
+Trial 13 finished with value: 10.388780949541637 and parameters: {'length_scale': 0.011845761580049245, 'noise_level': 853.5930649476167, 'C': 0.973337088333593, 'epsilon': 0.21158553313913686}. Best is trial 3 with value: 5.608698817603769.
+Trial 14 finished with value: 6.457782945755189 and parameters: {'length_scale': 4.403142825157674, 'noise_level': 28.42662403883551, 'C': 0.32004881832463594, 'epsilon': 0.8503631244929343}. Best is trial 3 with value: 5.608698817603769.
+Trial 15 finished with value: 9.07277612447302 and parameters: {'length_scale': 92.83834206046161, 'noise_level': 301.73738162426827, 'C': 0.044179346990765325, 'epsilon': 37.47728247373949}. Best is trial 3 with value: 5.608698817603769.
+Trial 16 finished with value: 6.303279894708261 and parameters: {'length_scale': 2.614073158781277, 'noise_level': 31.999323078001808, 'C': 1.2017490181978645, 'epsilon': 0.14749585424575432}. Best is trial 3 with value: 5.608698817603769.
+Trial 17 finished with value: 3.5291841472885253 and parameters: {'length_scale': 8.364450270394116, 'noise_level': 209.3717166869426, 'C': 6.5722540768836, 'epsilon': 1.12934360256687}. Best is trial 17 with value: 3.5291841472885253.
+Trial 18 finished with value: 6.39538600599927 and parameters: {'length_scale': 33.7684302122779, 'noise_level': 232.26253408451356, 'C': 8.224682518629782, 'epsilon': 25.11292888660515}. Best is trial 17 with value: 3.5291841472885253.
+Trial 19 finished with value: 5.0944001606269325 and parameters: {'length_scale': 1.6979377640010318, 'noise_level': 19.6498012332491, 'C': 80.72913248424084, 'epsilon': 1.2325869941931573}. Best is trial 17 with value: 3.5291841472885253.
+Trial 20 finished with value: 3.6726461174091996 and parameters: {'length_scale': 9.310068538912379, 'noise_level': 17.390879797441976, 'C': 92.61965864540849, 'epsilon': 17.283574726718257}. Best is trial 17 with value: 3.5291841472885253.
+Trial 21 finished with value: 3.5875187279813536 and parameters: {'length_scale': 13.190561686539297, 'noise_level': 23.542295883561728, 'C': 95.83232320613506, 'epsilon': 17.198311654951738}. Best is trial 17 with value: 3.5291841472885253.
+Trial 22 finished with value: 3.7650762603264396 and parameters: {'length_scale': 13.676717886997729, 'noise_level': 1.8651270137547735, 'C': 17.099878111288497, 'epsilon': 15.579067098275758}. Best is trial 17 with value: 3.5291841472885253.
+Trial 23 finished with value: 5.139439646491584 and parameters: {'length_scale': 85.09686964261738, 'noise_level': 15.058636464322056, 'C': 34.48532836995067, 'epsilon': 10.603279985340833}. Best is trial 17 with value: 3.5291841472885253.
+Trial 24 finished with value: 9.778266871906448 and parameters: {'length_scale': 32.70625710683901, 'noise_level': 55.60911262818067, 'C': 61.431225606098295, 'epsilon': 95.49649424319402}. Best is trial 17 with value: 3.5291841472885253.
+Trial 25 finished with value: 7.237806855347982 and parameters: {'length_scale': 6.630528385365292, 'noise_level': 10.190471400574827, 'C': 96.61036583661475, 'epsilon': 36.5220534814468}. Best is trial 17 with value: 3.5291841472885253.
+Trial 26 finished with value: 3.99582958512243 and parameters: {'length_scale': 21.199759679551892, 'noise_level': 135.3964743547507, 'C': 10.03200013387865, 'epsilon': 2.379009998675802}. Best is trial 17 with value: 3.5291841472885253.
+Trial 27 finished with value: 3.227831933761165 and parameters: {'length_scale': 9.110866675686296, 'noise_level': 39.62036384605007, 'C': 28.163968963885033, 'epsilon': 10.292873113126152}. Best is trial 27 with value: 3.227831933761165.
+Trial 28 finished with value: 7.44862016707947 and parameters: {'length_scale': 49.92634210475134, 'noise_level': 53.20405198677522, 'C': 4.474941880943637, 'epsilon': 2.4021494150815714}. Best is trial 27 with value: 3.227831933761165.
+Trial 29 finished with value: 3.6898986610541415 and parameters: {'length_scale': 3.1535347648667935, 'noise_level': 205.35717747205584, 'C': 24.027742512272283, 'epsilon': 0.0016888390841307479}. Best is trial 27 with value: 3.227831933761165.
+Trial 30 finished with value: 6.829617224193387 and parameters: {'length_scale': 1.2025434816624074, 'noise_level': 74.10997745507645, 'C': 33.17947366909349, 'epsilon': 7.305902049581109}. Best is trial 27 with value: 3.227831933761165.
+Trial 31 finished with value: 3.7215756617869253 and parameters: {'length_scale': 7.60662358243371, 'noise_level': 27.523179620640754, 'C': 41.30166837744208, 'epsilon': 17.030419885309186}. Best is trial 27 with value: 3.227831933761165.
+Trial 32 finished with value: 8.184802688182042 and parameters: {'length_scale': 8.767541440070492, 'noise_level': 11.810244031177405, 'C': 98.31763706048602, 'epsilon': 42.16513003993857}. Best is trial 27 with value: 3.227831933761165.
+Trial 33 finished with value: 3.6473222666203653 and parameters: {'length_scale': 18.004432916290703, 'noise_level': 41.34205558279233, 'C': 17.44697504324331, 'epsilon': 2.641386791858138}. Best is trial 27 with value: 3.227831933761165.
+Trial 34 finished with value: 4.013358501514064 and parameters: {'length_scale': 15.887828291422846, 'noise_level': 40.20514306180805, 'C': 4.937380867699455, 'epsilon': 2.039694311623521}. Best is trial 27 with value: 3.227831933761165.
+Trial 35 finished with value: 10.361543373300062 and parameters: {'length_scale': 54.54675361040311, 'noise_level': 86.28205363599074, 'C': 0.001059185080404173, 'epsilon': 0.4755755272213124}. Best is trial 27 with value: 3.227831933761165.
+Trial 36 finished with value: 3.733018635501325 and parameters: {'length_scale': 20.73306898617088, 'noise_level': 6.603455512689898, 'C': 14.149164197539845, 'epsilon': 4.145798357463409}. Best is trial 27 with value: 3.227831933761165.
+Trial 37 finished with value: 10.189048362303023 and parameters: {'length_scale': 4.078747481273993, 'noise_level': 177.02442000618132, 'C': 0.0037696203546047045, 'epsilon': 1.1475956549492168}. Best is trial 27 with value: 3.227831933761165.
+Trial 38 finished with value: 9.488128579492486 and parameters: {'length_scale': 0.5623684808027504, 'noise_level': 2.5915608312804803, 'C': 2.695658098150317, 'epsilon': 8.12783516682687}. Best is trial 27 with value: 3.227831933761165.
+Trial 39 finished with value: 7.077315850742343 and parameters: {'length_scale': 1.5205300064401326, 'noise_level': 0.4006349763685104, 'C': 6.223136637756433, 'epsilon': 0.4379215051724037}. Best is trial 27 with value: 3.227831933761165.
+Trial 40 finished with value: 3.7640332808419443 and parameters: {'length_scale': 22.133839055401616, 'noise_level': 6.175470502939505, 'C': 14.856010293422012, 'epsilon': 4.659223178790098}. Best is trial 27 with value: 3.227831933761165.
+Trial 41 finished with value: 3.1796686484843533 and parameters: {'length_scale': 7.439025785173498, 'noise_level': 16.84669856187408, 'C': 51.812841258816306, 'epsilon': 12.331216779642428}. Best is trial 41 with value: 3.1796686484843533.
+Trial 42 finished with value: 3.2095527319353914 and parameters: {'length_scale': 5.925184001293877, 'noise_level': 41.415281805543025, 'C': 45.945367055258274, 'epsilon': 3.6145235324378957}. Best is trial 41 with value: 3.1796686484843533.
+Trial 43 finished with value: 3.214134959714014 and parameters: {'length_scale': 6.425869301797708, 'noise_level': 22.409406685302276, 'C': 43.880682709485704, 'epsilon': 11.234962183208314}. Best is trial 41 with value: 3.1796686484843533.
+Trial 44 finished with value: 3.215946746546537 and parameters: {'length_scale': 5.659658412367593, 'noise_level': 0.12734392025192762, 'C': 51.85983736689285, 'epsilon': 9.324143163269182}. Best is trial 41 with value: 3.1796686484843533.
+Trial 45 finished with value: 7.88443585710297 and parameters: {'length_scale': 0.8881452042148985, 'noise_level': 0.10489083907406975, 'C': 41.993918051783716, 'epsilon': 9.953890281850375}. Best is trial 41 with value: 3.1796686484843533.
+Trial 46 finished with value: 9.778266871906448 and parameters: {'length_scale': 2.24261595921762, 'noise_level': 1.1242434962313574, 'C': 44.37903061884705, 'epsilon': 67.02765690881046}. Best is trial 41 with value: 3.1796686484843533.
+Trial 47 finished with value: 3.1906894575395506 and parameters: {'length_scale': 5.7795541781842585, 'noise_level': 4.553270997880589, 'C': 51.95405287461031, 'epsilon': 4.81390041301238}. Best is trial 41 with value: 3.1796686484843533.
+Trial 48 finished with value: 3.264059904662137 and parameters: {'length_scale': 4.70985209187369, 'noise_level': 0.28662737809331196, 'C': 58.769600189143674, 'epsilon': 4.007275698972401}. Best is trial 41 with value: 3.1796686484843533.
+Trial 49 finished with value: 6.896265936024244 and parameters: {'length_scale': 3.0530604617813393, 'noise_level': 3.775850334052857, 'C': 2.2176242806609543, 'epsilon': 26.519072962265547}. Best is trial 41 with value: 3.1796686484843533.
+Trial 50 finished with value: 9.778266871906448 and parameters: {'length_scale': 2.0521216672699936, 'noise_level': 0.11969381028413388, 'C': 11.86775129295324, 'epsilon': 58.84777800171685}. Best is trial 41 with value: 3.1796686484843533.
+Trial 51 finished with value: 3.2908567255657575 and parameters: {'length_scale': 5.876005948962556, 'noise_level': 0.688806913657481, 'C': 25.923298455158612, 'epsilon': 11.24447080144462}. Best is trial 41 with value: 3.1796686484843533.
+Trial 52 finished with value: 9.231781373181633 and parameters: {'length_scale': 0.2125100985230525, 'noise_level': 13.752172530645831, 'C': 53.65972807877823, 'epsilon': 6.682117184913066}. Best is trial 41 with value: 3.1796686484843533.
+Trial 53 finished with value: 9.657666829081762 and parameters: {'length_scale': 0.033401351588205896, 'noise_level': 37.96971247163402, 'C': 23.080553331283983, 'epsilon': 3.763102452226637}. Best is trial 41 with value: 3.1796686484843533.
+Trial 54 finished with value: 5.669808210020742 and parameters: {'length_scale': 3.8763477929463743, 'noise_level': 8.231641861154031, 'C': 23.61881782295254, 'epsilon': 25.638615991051918}. Best is trial 41 with value: 3.1796686484843533.
+Trial 55 finished with value: 3.327516888244136 and parameters: {'length_scale': 12.397234877326245, 'noise_level': 21.850530605938133, 'C': 54.13907914226401, 'epsilon': 1.7285426172852285}. Best is trial 41 with value: 3.1796686484843533.
+Trial 56 finished with value: 3.3168537894767267 and parameters: {'length_scale': 5.822995214866563, 'noise_level': 3.80991685269015, 'C': 30.96474879134604, 'epsilon': 12.426870928315997}. Best is trial 41 with value: 3.1796686484843533.
+Trial 57 finished with value: 8.616729756138941 and parameters: {'length_scale': 10.102582230545396, 'noise_level': 86.70098662592842, 'C': 0.018773520414557727, 'epsilon': 23.52335488551492}. Best is trial 41 with value: 3.1796686484843533.
+Trial 58 finished with value: 6.8492710038804745 and parameters: {'length_scale': 1.4155188655193058, 'noise_level': 1.4898711017792605, 'C': 8.755507930575178, 'epsilon': 7.5188162660214966}. Best is trial 41 with value: 3.1796686484843533.
+Trial 59 finished with value: 10.301588985673707 and parameters: {'length_scale': 0.4505486011094888, 'noise_level': 0.15639725955854578, 'C': 0.1573703070288208, 'epsilon': 0.8179332044887552}. Best is trial 41 with value: 3.1796686484843533.
+Trial 60 finished with value: 7.613971901298998 and parameters: {'length_scale': 28.01709426052821, 'noise_level': 0.5674886078561353, 'C': 1.2921759146730911, 'epsilon': 0.10293831120025645}. Best is trial 41 with value: 3.1796686484843533.
+Trial 61 finished with value: 3.3877198829494004 and parameters: {'length_scale': 3.783643345390356, 'noise_level': 0.1838754147186951, 'C': 66.84761551972576, 'epsilon': 3.7835108811410496}. Best is trial 41 with value: 3.1796686484843533.
+Trial 62 finished with value: 3.2237919897286105 and parameters: {'length_scale': 5.117960658398664, 'noise_level': 0.26908841359613545, 'C': 67.47656173656026, 'epsilon': 5.796245922641014}. Best is trial 41 with value: 3.1796686484843533.
+Trial 63 finished with value: 3.2240762721395555 and parameters: {'length_scale': 7.1921738492409, 'noise_level': 0.2762441630867654, 'C': 20.186028514676714, 'epsilon': 5.568449016159241}. Best is trial 41 with value: 3.1796686484843533.
+Trial 64 finished with value: 3.3192830066085484 and parameters: {'length_scale': 6.475331660832365, 'noise_level': 0.32487071151730607, 'C': 18.37577228949958, 'epsilon': 1.6229479844649712}. Best is trial 41 with value: 3.1796686484843533.
+Trial 65 finished with value: 4.243222348667278 and parameters: {'length_scale': 2.195531240041725, 'noise_level': 0.19809413400776338, 'C': 39.99643865938788, 'epsilon': 6.325618394922439}. Best is trial 41 with value: 3.1796686484843533.
+Trial 66 finished with value: 3.6776274221330327 and parameters: {'length_scale': 5.031516895598056, 'noise_level': 0.4417406014983199, 'C': 73.77362396149076, 'epsilon': 14.9103802096407}. Best is trial 41 with value: 3.1796686484843533.
+Trial 67 finished with value: 3.234271048423581 and parameters: {'length_scale': 11.191768561384666, 'noise_level': 1.0541885222646883, 'C': 69.1544921280629, 'epsilon': 2.7375853075431027}. Best is trial 41 with value: 3.1796686484843533.
+Trial 68 finished with value: 3.5805184774949916 and parameters: {'length_scale': 3.0409153994373326, 'noise_level': 0.14795097226979478, 'C': 39.87940364786175, 'epsilon': 5.472784810371406}. Best is trial 41 with value: 3.1796686484843533.
+Trial 69 finished with value: 4.7205327297074415 and parameters: {'length_scale': 7.33403085933163, 'noise_level': 0.2451592469373263, 'C': 11.56660166954739, 'epsilon': 22.607065754041777}. Best is trial 41 with value: 3.1796686484843533.
+Trial 70 finished with value: 3.6012577782483106 and parameters: {'length_scale': 14.99456015743054, 'noise_level': 8.669464185702154, 'C': 19.32036065071556, 'epsilon': 0.008834402819479404}. Best is trial 41 with value: 3.1796686484843533.
+Trial 71 finished with value: 3.1721075027154324 and parameters: {'length_scale': 8.911322605292275, 'noise_level': 53.10216399429442, 'C': 32.35300072927816, 'epsilon': 8.845070104127776}. Best is trial 71 with value: 3.1721075027154324.
+Trial 72 finished with value: 3.1891810897898565 and parameters: {'length_scale': 8.004545987613675, 'noise_level': 19.834340769958306, 'C': 51.02263422705598, 'epsilon': 3.1293937792528195}. Best is trial 71 with value: 3.1721075027154324.
+Trial 73 finished with value: 3.2609551747420467 and parameters: {'length_scale': 9.35628640006854, 'noise_level': 62.56555910636252, 'C': 32.097222632702305, 'epsilon': 3.03701554890436}. Best is trial 71 with value: 3.1721075027154324.
+Trial 74 finished with value: 3.368850418398631 and parameters: {'length_scale': 5.123580545351563, 'noise_level': 18.00706578146185, 'C': 51.717111482703075, 'epsilon': 0.7177890514602691}. Best is trial 71 with value: 3.1721075027154324.
+Trial 75 finished with value: 7.3058444446452295 and parameters: {'length_scale': 43.48325102390227, 'noise_level': 26.620215858523355, 'C': 88.26507992996248, 'epsilon': 37.83245228801087}. Best is trial 71 with value: 3.1721075027154324.
+Trial 76 finished with value: 3.667059404742581 and parameters: {'length_scale': 3.1755140196385137, 'noise_level': 50.098573895820934, 'C': 67.47807480778164, 'epsilon': 9.168353947569665}. Best is trial 71 with value: 3.1721075027154324.
+Trial 77 finished with value: 3.411307979253553 and parameters: {'length_scale': 11.260801748745509, 'noise_level': 13.801662296844844, 'C': 31.78762929899582, 'epsilon': 13.440493159232455}. Best is trial 71 with value: 3.1721075027154324.
+Trial 78 finished with value: 4.056564536454606 and parameters: {'length_scale': 18.309762058918718, 'noise_level': 5.0259102043547665, 'C': 49.65055205250072, 'epsilon': 18.92685871463802}. Best is trial 71 with value: 3.1721075027154324.
+Trial 79 finished with value: 3.6000194914524117 and parameters: {'length_scale': 3.7282708755606713, 'noise_level': 134.61572431724434, 'C': 13.852586211841194, 'epsilon': 1.5348029019695}. Best is trial 71 with value: 3.1721075027154324.
+Trial 80 finished with value: 3.146616205876672 and parameters: {'length_scale': 8.505740786300558, 'noise_level': 31.748135205075112, 'C': 96.14823421616228, 'epsilon': 3.271161072936985}. Best is trial 80 with value: 3.146616205876672.
+Trial 81 finished with value: 3.485474458705416 and parameters: {'length_scale': 26.828672369609745, 'noise_level': 30.021052540204426, 'C': 92.49864438723607, 'epsilon': 3.224987730125705}. Best is trial 80 with value: 3.146616205876672.
+Trial 82 finished with value: 3.102827162073891 and parameters: {'length_scale': 7.545729673821203, 'noise_level': 20.459177573211935, 'C': 70.80133975107603, 'epsilon': 5.293436166491549}. Best is trial 82 with value: 3.102827162073891.
+Trial 83 finished with value: 3.1280451453369706 and parameters: {'length_scale': 8.151299061482138, 'noise_level': 21.024748910917246, 'C': 42.18279403856457, 'epsilon': 9.43286261620746}. Best is trial 82 with value: 3.102827162073891.
+Trial 84 finished with value: 3.1922885764287723 and parameters: {'length_scale': 7.578045138148023, 'noise_level': 10.857473569128823, 'C': 99.4865681743807, 'epsilon': 2.138594550252898}. Best is trial 82 with value: 3.102827162073891.
+Trial 85 finished with value: 3.4970803016988414 and parameters: {'length_scale': 15.444488291106458, 'noise_level': 10.114130282819605, 'C': 31.91930906861034, 'epsilon': 1.9919285474209132}. Best is trial 82 with value: 3.102827162073891.
+Trial 86 finished with value: 3.246091957272399 and parameters: {'length_scale': 7.601872097566913, 'noise_level': 32.771434953159215, 'C': 78.40266398783129, 'epsilon': 1.1758700015758088}. Best is trial 82 with value: 3.102827162073891.
+Trial 87 finished with value: 8.655116887930504 and parameters: {'length_scale': 9.235629115524628, 'noise_level': 17.005089921207187, 'C': 0.07735784818415808, 'epsilon': 2.4170959219054735}. Best is trial 82 with value: 3.102827162073891.
+Trial 88 finished with value: 6.55767993396489 and parameters: {'length_scale': 13.828521710073915, 'noise_level': 49.608720191749505, 'C': 0.5906952717832253, 'epsilon': 0.6481160725014838}. Best is trial 82 with value: 3.102827162073891.
+Trial 89 finished with value: 9.920964056224866 and parameters: {'length_scale': 11.289452234857725, 'noise_level': 7.612896091400189, 'C': 0.002216386573554928, 'epsilon': 4.356347774279232}. Best is trial 82 with value: 3.102827162073891.
+Trial 90 finished with value: 5.684328598563682 and parameters: {'length_scale': 24.08116463758361, 'noise_level': 11.828161143039038, 'C': 3.0790289929975128, 'epsilon': 1.425991912667747}. Best is trial 82 with value: 3.102827162073891.
+Trial 91 finished with value: 3.1542652852113657 and parameters: {'length_scale': 5.828735601152706, 'noise_level': 20.96059989494414, 'C': 99.37519447718694, 'epsilon': 6.744808128732834}. Best is trial 82 with value: 3.102827162073891.
+Trial 92 finished with value: 3.0785357164962077 and parameters: {'length_scale': 8.227199857241118, 'noise_level': 21.691557534414503, 'C': 87.58510208758298, 'epsilon': 7.868722686078965}. Best is trial 92 with value: 3.0785357164962077.
+Trial 93 finished with value: 3.0671956385212122 and parameters: {'length_scale': 7.884273161114625, 'noise_level': 20.44943241871226, 'C': 99.47163768194565, 'epsilon': 8.187037577675065}. Best is trial 93 with value: 3.0671956385212122.
+Trial 94 finished with value: 3.283097486847441 and parameters: {'length_scale': 17.33823847437199, 'noise_level': 21.3371765767471, 'C': 74.49475909705653, 'epsilon': 7.820315716384066}. Best is trial 93 with value: 3.0671956385212122.
+Trial 95 finished with value: 6.465206262877702 and parameters: {'length_scale': 4.403794593711757, 'noise_level': 15.606811140042383, 'C': 57.511525323269105, 'epsilon': 30.892333803769823}. Best is trial 93 with value: 3.0671956385212122.
+Trial 96 finished with value: 4.039154865917895 and parameters: {'length_scale': 9.528148783186639, 'noise_level': 25.107489907795845, 'C': 27.595299122616794, 'epsilon': 19.191226564208137}. Best is trial 93 with value: 3.0671956385212122.
+Trial 97 finished with value: 3.78922749290967 and parameters: {'length_scale': 2.675613059725463, 'noise_level': 13.067824732741167, 'C': 35.12008691326506, 'epsilon': 4.844740042464249}. Best is trial 93 with value: 3.0671956385212122.
+Trial 98 finished with value: 3.156659560661346 and parameters: {'length_scale': 8.032261488276953, 'noise_level': 4.743975636370656, 'C': 82.29479881371813, 'epsilon': 12.947013239376947}. Best is trial 93 with value: 3.0671956385212122.
+Trial 99 finished with value: 9.196170157655967 and parameters: {'length_scale': 12.754547950719425, 'noise_level': 33.63869080231877, 'C': 97.51159159451423, 'epsilon': 47.88276244119166}. Best is trial 93 with value: 3.0671956385212122.
+Trial 100 finished with value: 3.4763780944961633 and parameters: {'length_scale': 20.035884554896327, 'noise_level': 19.70215700377156, 'C': 61.66457650567769, 'epsilon': 13.662367400051975}. Best is trial 93 with value: 3.0671956385212122.
+Trial 101 finished with value: 3.095796853909696 and parameters: {'length_scale': 7.564372666917413, 'noise_level': 2.4305339551860294, 'C': 75.88623796562166, 'epsilon': 7.1280934306204555}. Best is trial 93 with value: 3.0671956385212122.
+Trial 102 finished with value: 3.0752983522127453 and parameters: {'length_scale': 8.293424144806853, 'noise_level': 74.4108110376348, 'C': 79.83026659324923, 'epsilon': 7.974507577717673}. Best is trial 93 with value: 3.0671956385212122.
+Trial 103 finished with value: 3.0968343113896237 and parameters: {'length_scale': 10.497823650415276, 'noise_level': 72.98366786336767, 'C': 78.26626791030696, 'epsilon': 9.057154927987716}. Best is trial 93 with value: 3.0671956385212122.
+Trial 104 finished with value: 3.109027045850601 and parameters: {'length_scale': 10.393043993191313, 'noise_level': 2.1958212245318824, 'C': 80.75147833473613, 'epsilon': 7.760335682150927}. Best is trial 93 with value: 3.0671956385212122.
+Trial 105 finished with value: 3.1288079065360366 and parameters: {'length_scale': 11.052200792055874, 'noise_level': 2.16739674945922, 'C': 79.35465314443984, 'epsilon': 6.595271110011955}. Best is trial 93 with value: 3.0671956385212122.
+Trial 106 finished with value: 3.150135058037048 and parameters: {'length_scale': 10.98126287077904, 'noise_level': 2.620408243334731, 'C': 71.95668328365855, 'epsilon': 7.279273857545949}. Best is trial 93 with value: 3.0671956385212122.
+Trial 107 finished with value: 3.6969031664019374 and parameters: {'length_scale': 40.25052754450577, 'noise_level': 2.410730122854329, 'C': 76.99878654780022, 'epsilon': 9.791549344584718}. Best is trial 93 with value: 3.0671956385212122.
+Trial 108 finished with value: 3.1889579805144566 and parameters: {'length_scale': 10.971908545898655, 'noise_level': 1.7905912648596976, 'C': 40.23107107649915, 'epsilon': 6.461116492611329}. Best is trial 93 with value: 3.0671956385212122.
+Trial 109 finished with value: 3.6516520621278383 and parameters: {'length_scale': 15.055372087474996, 'noise_level': 2.3656570911383703, 'C': 62.86869921047715, 'epsilon': 16.704490956673318}. Best is trial 93 with value: 3.0671956385212122.
+Trial 110 finished with value: 3.1893781935526286 and parameters: {'length_scale': 12.361767550221426, 'noise_level': 3.148079672463581, 'C': 78.86032413567848, 'epsilon': 7.66484210959444}. Best is trial 93 with value: 3.0671956385212122.
+Trial 111 finished with value: 3.1232368638840793 and parameters: {'length_scale': 6.550913084719962, 'noise_level': 1.3057276530435011, 'C': 93.74557608092292, 'epsilon': 6.378201361622177}. Best is trial 93 with value: 3.0671956385212122.
+Trial 112 finished with value: 3.1900436750240386 and parameters: {'length_scale': 6.297343299962118, 'noise_level': 0.8953811572376107, 'C': 41.37374064360005, 'epsilon': 4.601660427540683}. Best is trial 93 with value: 3.0671956385212122.
+Trial 113 finished with value: 3.2724660897721605 and parameters: {'length_scale': 4.349693909266656, 'noise_level': 1.3100613751870853, 'C': 71.20980602230182, 'epsilon': 5.45685829367987}. Best is trial 93 with value: 3.0671956385212122.
+Trial 114 finished with value: 3.3330529606667954 and parameters: {'length_scale': 10.449629774334749, 'noise_level': 2.973072952436947, 'C': 60.95882813461093, 'epsilon': 0.037088771515940894}. Best is trial 93 with value: 3.0671956385212122.
+Trial 115 finished with value: 8.958517617626324 and parameters: {'length_scale': 0.05030533425348914, 'noise_level': 1.8696905516539934, 'C': 45.23707854300565, 'epsilon': 10.571102059455823}. Best is trial 93 with value: 3.0671956385212122.
+Trial 116 finished with value: 3.2633789291983106 and parameters: {'length_scale': 17.950898940739517, 'noise_level': 69.01588036260056, 'C': 97.27432973846716, 'epsilon': 7.309219331748266}. Best is trial 93 with value: 3.0671956385212122.
+Trial 117 finished with value: 3.2701268639569756 and parameters: {'length_scale': 13.44674070019835, 'noise_level': 98.10659173798452, 'C': 79.24199060656366, 'epsilon': 3.637837382678035}. Best is trial 93 with value: 3.0671956385212122.
+Trial 118 finished with value: 3.2095306009564246 and parameters: {'length_scale': 6.923590152198607, 'noise_level': 1.5264313025460285, 'C': 24.330951037194215, 'epsilon': 9.160321978023578}. Best is trial 93 with value: 3.0671956385212122.
+Trial 119 finished with value: 3.1237515991935356 and parameters: {'length_scale': 8.746791020085452, 'noise_level': 2.0967109106335777, 'C': 56.82194399390476, 'epsilon': 5.698157216082455}. Best is trial 93 with value: 3.0671956385212122.
+Trial 120 finished with value: 4.131813415844315 and parameters: {'length_scale': 8.696622477625516, 'noise_level': 1.9165949406884002, 'C': 52.750254197414286, 'epsilon': 19.842221660136556}. Best is trial 93 with value: 3.0671956385212122.
+Trial 121 finished with value: 3.1360513105243584 and parameters: {'length_scale': 10.8456253829643, 'noise_level': 2.1891070128183436, 'C': 67.80040413164731, 'epsilon': 5.782933836118204}. Best is trial 93 with value: 3.0671956385212122.
+Trial 122 finished with value: 3.26718791656753 and parameters: {'length_scale': 5.005666481933256, 'noise_level': 1.1458089981714634, 'C': 37.39678528048625, 'epsilon': 4.971141870425839}. Best is trial 93 with value: 3.0671956385212122.
+Trial 123 finished with value: 3.48338451664888 and parameters: {'length_scale': 15.487461928228834, 'noise_level': 3.711582411460502, 'C': 60.18654430725626, 'epsilon': 0.3261941518078642}. Best is trial 93 with value: 3.0671956385212122.
+Trial 124 finished with value: 3.1883230744669686 and parameters: {'length_scale': 6.788979530468775, 'noise_level': 2.1257705198806067, 'C': 98.56424379438599, 'epsilon': 11.544985230355877}. Best is trial 93 with value: 3.0671956385212122.
+Trial 125 finished with value: 3.4289925682042375 and parameters: {'length_scale': 22.017489796272688, 'noise_level': 1.5426536476265884, 'C': 46.757412206814465, 'epsilon': 6.017716594882277}. Best is trial 93 with value: 3.0671956385212122.
+Trial 126 finished with value: 9.611510632630045 and parameters: {'length_scale': 0.014884574313907988, 'noise_level': 0.8708455910804156, 'C': 64.2567845068829, 'epsilon': 2.7861306738648546}. Best is trial 93 with value: 3.0671956385212122.
+Trial 127 finished with value: 3.1531038847675124 and parameters: {'length_scale': 9.484603170599723, 'noise_level': 42.12818401769869, 'C': 80.65897132500152, 'epsilon': 3.9591352408561264}. Best is trial 93 with value: 3.0671956385212122.
+Trial 128 finished with value: 3.335206298751678 and parameters: {'length_scale': 8.204667344695551, 'noise_level': 472.99560380917865, 'C': 45.285726472493984, 'epsilon': 14.306913120084568}. Best is trial 93 with value: 3.0671956385212122.
+Trial 129 finished with value: 5.150890446648438 and parameters: {'length_scale': 77.38637724915887, 'noise_level': 168.14606452329582, 'C': 27.833239953066997, 'epsilon': 8.594211673202835}. Best is trial 93 with value: 3.0671956385212122.
+Trial 130 finished with value: 3.3596273573491553 and parameters: {'length_scale': 3.756517029314966, 'noise_level': 84.97133947727873, 'C': 57.599068402847706, 'epsilon': 5.845760771150833}. Best is trial 93 with value: 3.0671956385212122.
+Trial 131 finished with value: 3.177977370112377 and parameters: {'length_scale': 11.768105669447175, 'noise_level': 2.5776479496913485, 'C': 75.05549484500251, 'epsilon': 7.3595691293767995}. Best is trial 93 with value: 3.0671956385212122.
+Trial 132 finished with value: 3.0847592576029816 and parameters: {'length_scale': 10.181904840713708, 'noise_level': 2.9098321292135845, 'C': 98.62068598946018, 'epsilon': 10.658543298340035}. Best is trial 93 with value: 3.0671956385212122.
+Trial 133 finished with value: 3.218705226928556 and parameters: {'length_scale': 5.729577708449505, 'noise_level': 1.3766344813207987, 'C': 84.78588602007757, 'epsilon': 9.810452126894608}. Best is trial 93 with value: 3.0671956385212122.
+Trial 134 finished with value: 3.1724857789542926 and parameters: {'length_scale': 13.442860971779389, 'noise_level': 4.099322716658569, 'C': 98.41240293595109, 'epsilon': 11.43920947455446}. Best is trial 93 with value: 3.0671956385212122.
+Trial 135 finished with value: 3.54676317906958 and parameters: {'length_scale': 9.288534613692441, 'noise_level': 3.063970274177225, 'C': 39.06472568191319, 'epsilon': 16.283201982165778}. Best is trial 93 with value: 3.0671956385212122.
+Trial 136 finished with value: 9.548118088910211 and parameters: {'length_scale': 7.028288427711725, 'noise_level': 6.126993646440585, 'C': 0.017330011382764493, 'epsilon': 4.644219734020206}. Best is trial 93 with value: 3.0671956385212122.
+Trial 137 finished with value: 3.554904193051688 and parameters: {'length_scale': 17.808995104940028, 'noise_level': 1.6974398375193953, 'C': 54.137376308035435, 'epsilon': 0.0022477869491622548}. Best is trial 93 with value: 3.0671956385212122.
+Trial 138 finished with value: 3.6015654794151706 and parameters: {'length_scale': 29.7742999772052, 'noise_level': 26.61256718978952, 'C': 65.0222675985125, 'epsilon': 3.3180380133465173}. Best is trial 93 with value: 3.0671956385212122.
+Trial 139 finished with value: 3.259501150793496 and parameters: {'length_scale': 4.5649976581808005, 'noise_level': 1.0485083475104255, 'C': 48.080740644922315, 'epsilon': 5.742673597052741}. Best is trial 93 with value: 3.0671956385212122.
+Trial 140 finished with value: 3.0593033427488088 and parameters: {'length_scale': 7.978979678762136, 'noise_level': 1.979215360608809, 'C': 98.92016233685942, 'epsilon': 9.106338030612005}. Best is trial 140 with value: 3.0593033427488088.
+Trial 141 finished with value: 3.056869570366805 and parameters: {'length_scale': 8.100912774351764, 'noise_level': 1.3020282598844621, 'C': 98.7457754606476, 'epsilon': 8.322630312824732}. Best is trial 141 with value: 3.056869570366805.
+Trial 142 finished with value: 3.0934817827651804 and parameters: {'length_scale': 10.508346657434632, 'noise_level': 2.0845687465700378, 'C': 78.48255081745648, 'epsilon': 8.75692097827439}. Best is trial 141 with value: 3.056869570366805.
+Trial 143 finished with value: 3.335077092333963 and parameters: {'length_scale': 6.43096928267628, 'noise_level': 1.2324241630887587, 'C': 81.45475368092711, 'epsilon': 13.255426006180896}. Best is trial 141 with value: 3.056869570366805.
+Trial 144 finished with value: 3.052085714891046 and parameters: {'length_scale': 7.9245320194510835, 'noise_level': 0.7824586666155238, 'C': 99.14297998410095, 'epsilon': 8.606567964033717}. Best is trial 144 with value: 3.052085714891046.
+Trial 145 finished with value: 6.260860150996381 and parameters: {'length_scale': 5.4438922573144595, 'noise_level': 0.5984913587183647, 'C': 99.55214107355584, 'epsilon': 30.857493676579658}. Best is trial 144 with value: 3.052085714891046.
+Trial 146 finished with value: 6.482347960847979 and parameters: {'length_scale': 8.067263296423311, 'noise_level': 299.03669363960796, 'C': 0.2181000634476197, 'epsilon': 8.378467567409844}. Best is trial 144 with value: 3.052085714891046.
+Trial 147 finished with value: 4.529844378032665 and parameters: {'length_scale': 9.672944863781328, 'noise_level': 0.7573318127357355, 'C': 56.38450459317156, 'epsilon': 22.554610116984552}. Best is trial 144 with value: 3.052085714891046.
+Trial 148 finished with value: 3.2100957429291035 and parameters: {'length_scale': 7.053517365668383, 'noise_level': 1.0339198658665538, 'C': 34.66558085169543, 'epsilon': 11.130472355525782}. Best is trial 144 with value: 3.052085714891046.
+Trial 149 finished with value: 3.3929336828232857 and parameters: {'length_scale': 13.702946334040966, 'noise_level': 0.5064326306000769, 'C': 71.81058387957061, 'epsilon': 14.341081597206552}. Best is trial 144 with value: 3.052085714891046.
+Trial 150 finished with value: 3.20806793681459 and parameters: {'length_scale': 5.308713167885156, 'noise_level': 1.6777919819232683, 'C': 46.68444812075809, 'epsilon': 8.560409224176889}. Best is trial 144 with value: 3.052085714891046.
+Trial 151 finished with value: 3.1143876423198456 and parameters: {'length_scale': 10.539022385914683, 'noise_level': 2.089460504578062, 'C': 80.63688242354334, 'epsilon': 6.8140588212137585}. Best is trial 144 with value: 3.052085714891046.
+Trial 152 finished with value: 3.1005603628289906 and parameters: {'length_scale': 8.371113013342082, 'noise_level': 1.3175207498912527, 'C': 98.62910538018123, 'epsilon': 10.797758025266333}. Best is trial 144 with value: 3.052085714891046.
+Trial 153 finished with value: 3.566653130535651 and parameters: {'length_scale': 9.660878406186127, 'noise_level': 1.4134380759335778, 'C': 99.446611720202, 'epsilon': 16.790113130640304}. Best is trial 144 with value: 3.052085714891046.
+Trial 154 finished with value: 3.182018004092815 and parameters: {'length_scale': 6.5469879475880175, 'noise_level': 0.6895887188881035, 'C': 77.10202686724477, 'epsilon': 10.801980968221205}. Best is trial 144 with value: 3.052085714891046.
+Trial 155 finished with value: 3.20987472098423 and parameters: {'length_scale': 12.487990657945629, 'noise_level': 0.9350749814768053, 'C': 61.84481978287295, 'epsilon': 7.287403577385788}. Best is trial 144 with value: 3.052085714891046.
+Trial 156 finished with value: 3.3107280275034014 and parameters: {'length_scale': 15.901115991121156, 'noise_level': 2.832490555328778, 'C': 80.8991143026069, 'epsilon': 4.08605525373172}. Best is trial 144 with value: 3.052085714891046.
+Trial 157 finished with value: 3.0602394628007272 and parameters: {'length_scale': 8.005773542268388, 'noise_level': 1.9371512075774169, 'C': 99.38781614818446, 'epsilon': 8.280349242736307}. Best is trial 144 with value: 3.052085714891046.
+Trial 158 finished with value: 3.131002644959943 and parameters: {'length_scale': 7.711438348716339, 'noise_level': 1.2318011290042306, 'C': 98.95685500295104, 'epsilon': 12.062272912547138}. Best is trial 144 with value: 3.052085714891046.
+Trial 159 finished with value: 4.631559225408377 and parameters: {'length_scale': 4.388430142038605, 'noise_level': 3.3172860805895437, 'C': 67.11461710807491, 'epsilon': 20.333062297252393}. Best is trial 144 with value: 3.052085714891046.
+Trial 160 finished with value: 3.1378829347568766 and parameters: {'length_scale': 11.866797811746338, 'noise_level': 1.5390736439490473, 'C': 77.72577543001194, 'epsilon': 9.923383837395178}. Best is trial 144 with value: 3.052085714891046.
+Trial 161 finished with value: 3.1173624826704343 and parameters: {'length_scale': 9.610010627238776, 'noise_level': 1.8296640321343456, 'C': 58.39818001866245, 'epsilon': 6.846300807530414}. Best is trial 144 with value: 3.052085714891046.
+Trial 162 finished with value: 3.0680243600457455 and parameters: {'length_scale': 10.016765698303125, 'noise_level': 1.8813076299067266, 'C': 98.81676755235272, 'epsilon': 8.127320666293594}. Best is trial 144 with value: 3.052085714891046.
+Trial 163 finished with value: 3.0589184891717394 and parameters: {'length_scale': 9.94236661421853, 'noise_level': 1.8678558930257967, 'C': 99.81087941051152, 'epsilon': 8.406496406580994}. Best is trial 144 with value: 3.052085714891046.
+Trial 164 finished with value: 3.215861856876459 and parameters: {'length_scale': 14.82405403063028, 'noise_level': 2.6051769174007147, 'C': 99.98324110487479, 'epsilon': 8.28578124628654}. Best is trial 144 with value: 3.052085714891046.
+Trial 165 finished with value: 3.254393297290238 and parameters: {'length_scale': 10.818669421730966, 'noise_level': 2.114749625493449, 'C': 73.88000329553691, 'epsilon': 13.509408011734878}. Best is trial 144 with value: 3.052085714891046.
+Trial 166 finished with value: 9.063774082931923 and parameters: {'length_scale': 0.2441772225625075, 'noise_level': 1.827260640455124, 'C': 69.88398473262806, 'epsilon': 8.791080431090329}. Best is trial 144 with value: 3.052085714891046.
+Trial 167 finished with value: 3.7290445457302974 and parameters: {'length_scale': 7.6873928093123975, 'noise_level': 2.3612896107800294, 'C': 52.15935829867622, 'epsilon': 17.17687509246812}. Best is trial 144 with value: 3.052085714891046.
+Trial 168 finished with value: 3.202769428092933 and parameters: {'length_scale': 5.545120458065956, 'noise_level': 4.201960196764577, 'C': 85.09997276149517, 'epsilon': 4.674693133523545}. Best is trial 144 with value: 3.052085714891046.
+Trial 169 finished with value: 3.1339283676391623 and parameters: {'length_scale': 12.265141711011267, 'noise_level': 3.4781039181884497, 'C': 99.00464125792703, 'epsilon': 10.69231034472811}. Best is trial 144 with value: 3.052085714891046.
+Trial 170 finished with value: 3.127987841408374 and parameters: {'length_scale': 9.964656789031004, 'noise_level': 109.80564767052563, 'C': 61.16186179520528, 'epsilon': 7.788195390511872}. Best is trial 144 with value: 3.052085714891046.
+Trial 171 finished with value: 3.111477992900857 and parameters: {'length_scale': 9.312010827672449, 'noise_level': 1.7607985962799897, 'C': 59.180070808095756, 'epsilon': 6.955886306927069}. Best is trial 144 with value: 3.052085714891046.
+Trial 172 finished with value: 3.1050829216700144 and parameters: {'length_scale': 8.397692243260204, 'noise_level': 1.6854108124788338, 'C': 78.15257211284536, 'epsilon': 5.088663832489439}. Best is trial 144 with value: 3.052085714891046.
+Trial 173 finished with value: 3.1551759228645393 and parameters: {'length_scale': 8.341687459396473, 'noise_level': 1.569694540880147, 'C': 48.151752805337125, 'epsilon': 4.6832896932030845}. Best is trial 144 with value: 3.052085714891046.
+Trial 174 finished with value: 3.2698768522885784 and parameters: {'length_scale': 6.362745809430694, 'noise_level': 1.075664599613148, 'C': 66.48613297188119, 'epsilon': 12.559255193308791}. Best is trial 144 with value: 3.052085714891046.
+Trial 175 finished with value: 3.0749078904542393 and parameters: {'length_scale': 8.039258828286515, 'noise_level': 0.7980823259147489, 'C': 78.59619561473173, 'epsilon': 9.46387499030024}. Best is trial 144 with value: 3.052085714891046.
+Trial 176 finished with value: 3.1053288990465098 and parameters: {'length_scale': 7.156788828851097, 'noise_level': 0.79749293955784, 'C': 76.11282566698647, 'epsilon': 9.627603176036034}. Best is trial 144 with value: 3.052085714891046.
+Trial 177 finished with value: 3.494290681893067 and parameters: {'length_scale': 7.480573707547419, 'noise_level': 0.737373148664646, 'C': 79.1735123064785, 'epsilon': 15.561172742083832}. Best is trial 144 with value: 3.052085714891046.
+Trial 178 finished with value: 3.238174053104008 and parameters: {'length_scale': 5.504525119058027, 'noise_level': 0.3902467750108295, 'C': 99.74960000655881, 'epsilon': 9.72964800421683}. Best is trial 144 with value: 3.052085714891046.
+Trial 179 finished with value: 3.164478071988806 and parameters: {'length_scale': 6.516880165407114, 'noise_level': 0.587747451566293, 'C': 39.34857098582149, 'epsilon': 5.235370130102247}. Best is trial 144 with value: 3.052085714891046.
+Trial 180 finished with value: 3.166813682221013 and parameters: {'length_scale': 8.393537278089777, 'noise_level': 0.8370495031753628, 'C': 50.84703693702143, 'epsilon': 11.428304306139996}. Best is trial 144 with value: 3.052085714891046.
+Trial 181 finished with value: 3.184877695159441 and parameters: {'length_scale': 12.62680838770312, 'noise_level': 1.306835805509586, 'C': 77.89519557222316, 'epsilon': 8.82202640247475}. Best is trial 144 with value: 3.052085714891046.
+Trial 182 finished with value: 3.072116301337486 and parameters: {'length_scale': 7.69359223550651, 'noise_level': 0.9371305472706825, 'C': 66.24512563590436, 'epsilon': 8.450434855739926}. Best is trial 144 with value: 3.052085714891046.
+Trial 183 finished with value: 3.3997840208060213 and parameters: {'length_scale': 6.853886848604806, 'noise_level': 0.816694556410959, 'C': 65.3226695504869, 'epsilon': 14.443225862854757}. Best is trial 144 with value: 3.052085714891046.
+Trial 184 finished with value: 3.2351153744689647 and parameters: {'length_scale': 4.842849040283418, 'noise_level': 1.2728142195204888, 'C': 98.45063196652316, 'epsilon': 5.560906250260818}. Best is trial 144 with value: 3.052085714891046.
+Trial 185 finished with value: 3.603774025071261 and parameters: {'length_scale': 3.4197686928613344, 'noise_level': 1.00583802509304, 'C': 67.22021673414828, 'epsilon': 9.632414261342548}. Best is trial 144 with value: 3.052085714891046.
+Trial 186 finished with value: 3.0819312522088342 and parameters: {'length_scale': 8.19426873297597, 'noise_level': 0.5148290147419866, 'C': 80.46437702132476, 'epsilon': 6.429027823657873}. Best is trial 144 with value: 3.052085714891046.
+Trial 187 finished with value: 9.968310462556254 and parameters: {'length_scale': 9.143899499809708, 'noise_level': 0.5457768869450779, 'C': 0.005452902784400395, 'epsilon': 6.597593069086467}. Best is trial 144 with value: 3.052085714891046.
+Trial 188 finished with value: 3.1327041236070867 and parameters: {'length_scale': 7.805143469626276, 'noise_level': 0.6056667450746452, 'C': 50.639751465462595, 'epsilon': 5.4222769214494475}. Best is trial 144 with value: 3.052085714891046.
+Trial 189 finished with value: 3.267527898097657 and parameters: {'length_scale': 14.572401170345303, 'noise_level': 60.001114341677976, 'C': 79.03497251428236, 'epsilon': 12.242666840116485}. Best is trial 144 with value: 3.052085714891046.
+Trial 190 finished with value: 3.2379714222789104 and parameters: {'length_scale': 11.067460179833434, 'noise_level': 0.4940448669229669, 'C': 56.64663965294711, 'epsilon': 3.6783196329067556}. Best is trial 144 with value: 3.052085714891046.
+Trial 191 finished with value: 3.150824283202419 and parameters: {'length_scale': 5.900802561601515, 'noise_level': 0.669883191372097, 'C': 81.59477496456127, 'epsilon': 8.524749730884789}. Best is trial 144 with value: 3.052085714891046.
+Trial 192 finished with value: 4.001061423911193 and parameters: {'length_scale': 7.9977786181024655, 'noise_level': 0.34458507409980355, 'C': 1.5734220017419243, 'epsilon': 7.946138204914339}. Best is trial 144 with value: 3.052085714891046.
+Trial 193 finished with value: 3.144919821225789 and parameters: {'length_scale': 6.9043135163484255, 'noise_level': 0.9100009886518419, 'C': 98.30566803507965, 'epsilon': 10.481787940268996}. Best is trial 144 with value: 3.052085714891046.
+Trial 194 finished with value: 3.101792908621332 and parameters: {'length_scale': 9.486553654942238, 'noise_level': 1.4643157864860141, 'C': 71.75011132883856, 'epsilon': 6.967297014688272}. Best is trial 144 with value: 3.052085714891046.
+Trial 195 finished with value: 3.104463478580868 and parameters: {'length_scale': 9.29332742567081, 'noise_level': 1.113333931695593, 'C': 64.53113640433003, 'epsilon': 6.335129859211767}. Best is trial 144 with value: 3.052085714891046.
+Trial 196 finished with value: 4.665545432663246 and parameters: {'length_scale': 10.29295319210052, 'noise_level': 1.154179494233427, 'C': 0.847341112340017, 'epsilon': 6.827786932532519}. Best is trial 144 with value: 3.052085714891046.
+Trial 197 finished with value: 3.167868605338301 and parameters: {'length_scale': 12.39753298342369, 'noise_level': 1.315144708182687, 'C': 64.04148795221404, 'epsilon': 6.1910942129013735}. Best is trial 144 with value: 3.052085714891046.
+Trial 198 finished with value: 8.315188049195372 and parameters: {'length_scale': 0.7186369052668166, 'noise_level': 1.4728530802336222, 'C': 99.93060047195004, 'epsilon': 13.112902762410949}. Best is trial 144 with value: 3.052085714891046.
+Trial 199 finished with value: 3.150811157156112 and parameters: {'length_scale': 9.322718862070916, 'noise_level': 76.54717108448804, 'C': 40.05726378706909, 'epsilon': 7.956081949286347}. Best is trial 144 with value: 3.052085714891046.
+2025-03-02 21:39:37,695 - INFO - Best trial:
+2025-03-02 21:39:37,695 - INFO -   Value: 3.052085714891046
+2025-03-02 21:39:37,696 - INFO -   Params: {'length_scale': 7.9245320194510835, 'noise_level': 0.7824586666155238, 'C': 99.14297998410095, 'epsilon': 8.606567964033717}
+2025-03-02 21:39:37,696 - INFO - BEST TRIAL PARAMETERS: {'length_scale': 7.9245320194510835, 'noise_level': 0.7824586666155238, 'C': 99.14297998410095, 'epsilon': 8.606567964033717}
+2025-03-02 21:39:37,703 - INFO - Hyperparameters saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/evaluation_genus_final/genus_exp/hyperparameters_genus_final.json
+2025-03-02 21:39:39,001 - INFO - Final model saved to /data/leuven/345/vsc34502/PhD/ogt_final_runs/models_final_genus/genus_exp/svr_rmse/svr_rmse.pkl
+2025-03-02 21:39:39,001 - INFO - Total number of observations: 6401
+2025-03-02 21:39:39,001 - INFO - Number of observations in 5% group: 320
+2025-03-02 21:39:39,001 - INFO - Number of observations in 10% group: 640
+2025-03-02 21:39:39,001 - INFO - Number of observations in 20% group: 1280
+2025-03-02 21:39:39,001 - INFO - Number of observations in training set: 5716
+2025-03-02 21:39:39,001 - INFO - Number of observations in testing set: 685
+2025-03-02 21:39:39,001 - INFO - During 5-fold cross-validation:
+2025-03-02 21:39:39,001 - INFO -   Number of observations in each training fold: 4572
+2025-03-02 21:39:39,001 - INFO -   Number of observations in each validation fold: 1144
+2025-03-02 21:39:39,001 - INFO -   CV training set 5% group: 228
+2025-03-02 21:39:39,002 - INFO -   CV training set 10% group: 457
+2025-03-02 21:39:39,002 - INFO -   CV training set 20% group: 914
+2025-03-02 21:39:39,002 - INFO -   CV validation set 5% group: 57
+2025-03-02 21:39:39,002 - INFO -   CV validation set 10% group: 114
+2025-03-02 21:39:39,002 - INFO -   CV validation set 20% group: 228
+2025-03-02 21:39:45,362 - INFO - Training Performance:
+2025-03-02 21:39:45,363 - INFO - RMSE: 4.7569
+2025-03-02 21:39:45,363 - INFO - MAE: 3.7286
+2025-03-02 21:39:45,363 - INFO - R2: 0.8331
+2025-03-02 21:39:45,363 - INFO - Adjusted R2: 0.8314
+2025-03-02 21:39:45,363 - INFO - Training Binned Performance:
+2025-03-02 21:39:45,363 - INFO - top_5%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 6.3762
+2025-03-02 21:39:45,363 - INFO -   MAE: 4.8005
+2025-03-02 21:39:45,363 - INFO -   R2: 0.6631
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: 0.5752
+2025-03-02 21:39:45,363 - INFO - top_10%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 6.6379
+2025-03-02 21:39:45,363 - INFO -   MAE: 5.3414
+2025-03-02 21:39:45,363 - INFO -   R2: 0.7846
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: 0.7597
+2025-03-02 21:39:45,363 - INFO - top_20%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 5.9813
+2025-03-02 21:39:45,363 - INFO -   MAE: 4.8657
+2025-03-02 21:39:45,363 - INFO -   R2: 0.8513
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: 0.8432
+2025-03-02 21:39:45,363 - INFO - bottom_5%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 8.2526
+2025-03-02 21:39:45,363 - INFO -   MAE: 7.2092
+2025-03-02 21:39:45,363 - INFO -   R2: -3.5967
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:45,363 - INFO - bottom_10%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 6.6956
+2025-03-02 21:39:45,363 - INFO -   MAE: 5.4314
+2025-03-02 21:39:45,363 - INFO -   R2: -1.4991
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:45,363 - INFO - bottom_20%:
+2025-03-02 21:39:45,363 - INFO -   RMSE: 5.4675
+2025-03-02 21:39:45,363 - INFO -   MAE: 4.1989
+2025-03-02 21:39:45,363 - INFO -   R2: -0.8565
+2025-03-02 21:39:45,363 - INFO -   Adjusted R2: -0.9577
+2025-03-02 21:39:46,580 - INFO - Testing Performance:
+2025-03-02 21:39:46,580 - INFO - RMSE: 5.7950
+2025-03-02 21:39:46,580 - INFO - MAE: 4.0983
+2025-03-02 21:39:46,580 - INFO - R2: 0.8174
+2025-03-02 21:39:46,580 - INFO - Adjusted R2: 0.8002
+2025-03-02 21:39:46,580 - INFO - Testing Binned Performance:
+2025-03-02 21:39:46,580 - INFO - top_5%:
+2025-03-02 21:39:46,580 - INFO -   RMSE: 7.2699
+2025-03-02 21:39:46,580 - INFO -   MAE: 4.4819
+2025-03-02 21:39:46,580 - INFO -   R2: -1.7844
+2025-03-02 21:39:46,580 - INFO -   Adjusted R2: -1.7844
+2025-03-02 21:39:46,580 - INFO - top_10%:
+2025-03-02 21:39:46,580 - INFO -   RMSE: 9.7630
+2025-03-02 21:39:46,580 - INFO -   MAE: 6.7361
+2025-03-02 21:39:46,580 - INFO -   R2: -0.6928
+2025-03-02 21:39:46,580 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:46,580 - INFO - top_20%:
+2025-03-02 21:39:46,580 - INFO -   RMSE: 8.3000
+2025-03-02 21:39:46,580 - INFO -   MAE: 5.8156
+2025-03-02 21:39:46,580 - INFO -   R2: 0.6620
+2025-03-02 21:39:46,580 - INFO -   Adjusted R2: 0.4029
+2025-03-02 21:39:46,580 - INFO - bottom_5%:
+2025-03-02 21:39:46,580 - INFO -   RMSE: 10.8850
+2025-03-02 21:39:46,580 - INFO -   MAE: 8.7913
+2025-03-02 21:39:46,581 - INFO -   R2: -4.0705
+2025-03-02 21:39:46,581 - INFO -   Adjusted R2: -4.0705
+2025-03-02 21:39:46,581 - INFO - bottom_10%:
+2025-03-02 21:39:46,581 - INFO -   RMSE: 8.2841
+2025-03-02 21:39:46,581 - INFO -   MAE: 6.2270
+2025-03-02 21:39:46,581 - INFO -   R2: -2.2855
+2025-03-02 21:39:46,581 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:46,581 - INFO - bottom_20%:
+2025-03-02 21:39:46,581 - INFO -   RMSE: 6.2154
+2025-03-02 21:39:46,581 - INFO -   MAE: 4.2416
+2025-03-02 21:39:46,581 - INFO -   R2: -1.1705
+2025-03-02 21:39:46,581 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:51,925 - INFO - Cross-Validation Performance:
+2025-03-02 21:39:51,925 - INFO - RMSE: 5.1648
+2025-03-02 21:39:51,925 - INFO - MAE: 3.9618
+2025-03-02 21:39:51,925 - INFO - R2: 0.8033
+2025-03-02 21:39:51,925 - INFO - Adjusted R2: 0.8013
+2025-03-02 21:39:51,925 - INFO - Cross-Validation Binned Performance:
+2025-03-02 21:39:51,925 - INFO - top_5%:
+2025-03-02 21:39:51,925 - INFO -   RMSE: 7.8098
+2025-03-02 21:39:51,925 - INFO -   MAE: 5.8127
+2025-03-02 21:39:51,925 - INFO -   R2: 0.4946
+2025-03-02 21:39:51,925 - INFO -   Adjusted R2: 0.3626
+2025-03-02 21:39:51,925 - INFO - top_10%:
+2025-03-02 21:39:51,925 - INFO -   RMSE: 7.7676
+2025-03-02 21:39:51,925 - INFO -   MAE: 6.1249
+2025-03-02 21:39:51,925 - INFO -   R2: 0.7050
+2025-03-02 21:39:51,925 - INFO -   Adjusted R2: 0.6710
+2025-03-02 21:39:51,925 - INFO - top_20%:
+2025-03-02 21:39:51,926 - INFO -   RMSE: 6.8093
+2025-03-02 21:39:51,926 - INFO -   MAE: 5.4433
+2025-03-02 21:39:51,926 - INFO -   R2: 0.8073
+2025-03-02 21:39:51,926 - INFO -   Adjusted R2: 0.7968
+2025-03-02 21:39:51,926 - INFO - bottom_5%:
+2025-03-02 21:39:51,926 - INFO -   RMSE: 9.1612
+2025-03-02 21:39:51,926 - INFO -   MAE: 7.9435
+2025-03-02 21:39:51,926 - INFO -   R2: -4.6646
+2025-03-02 21:39:51,926 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:51,926 - INFO - bottom_10%:
+2025-03-02 21:39:51,926 - INFO -   RMSE: 7.3865
+2025-03-02 21:39:51,926 - INFO -   MAE: 5.9339
+2025-03-02 21:39:51,926 - INFO -   R2: -2.0414
+2025-03-02 21:39:51,926 - INFO -   Adjusted R2: -1.0000
+2025-03-02 21:39:51,926 - INFO - bottom_20%:
+2025-03-02 21:39:51,926 - INFO -   RMSE: 6.0091
+2025-03-02 21:39:51,926 - INFO -   MAE: 4.5611
+2025-03-02 21:39:51,926 - INFO -   R2: -1.2425
+2025-03-02 21:39:51,926 - INFO -   Adjusted R2: -1.0000
