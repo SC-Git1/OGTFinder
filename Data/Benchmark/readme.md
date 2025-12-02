@@ -11,8 +11,12 @@
 - `calculate_features.py`: script to calculate genomic, ORF and protein features.
 - `pipeline.py`: script to retrain models. 
 - `files.zip`: output files
+
+
 Training command:
 ```python3 ./pipeline.py ./species-ogt.tsv ./train-test.tsv ./species-taxon.tsv sauer_features.tsv```
+
+
 Note: needs the code from https://github.com/DavidBSauer/OGT_prediction/ in a folder "OGT_prediction"
 
 **Licenses**
@@ -20,4 +24,5 @@ Licenses from the two repositories of which code was included in this benchmark 
 
 *Note:*
 All input and output files for the benchmark that contain information regarding the genomes and taxids included in the development of OGTFinder will be made public upon acceptance of the manuscript.
+
 
