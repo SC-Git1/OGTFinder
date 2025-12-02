@@ -7,3 +7,16 @@
 - `tome_filtered_features.py`: script to calculate tome input
 
 **Sauer and Wang (2019)**
+- `sauer_scripts`: folder containing code excerpts originating from https://github.com/DavidBSauer/OGT_prediction/ for feature calculation.
+- `OGT_prediction`: archived code from https://github.com/DavidBSauer/OGT_prediction/ used in model calculation
+- `calculate_features`: script to calculate genomic, ORF and protein features.
+- `pipeline.py`: script to retrain models. 
+- `files.zip`: output files
+Training command:
+```python3 ./pipeline.py ./species-ogt.tsv ./train-test.tsv ./species-taxon.tsv sauer_features.tsv```
+
+**Licenses**
+Licenses from the two repositories of which code was included in this benchmark were copied verbatim from the repositories to the files `LICENSE_OGT_Prediction` and `LICENSE_Tome` respectively.
+
+*Note:*
+All input and output files for the benchmark that contain information regarding the genomes and taxids included in the development of OGTFinder will be made public upon acceptance of the manuscript.

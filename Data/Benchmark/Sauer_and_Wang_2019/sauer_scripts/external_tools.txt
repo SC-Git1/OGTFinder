@@ -1,0 +1,4 @@
+tRNAscan-SE tRNAscan-SE
+bedtools bedtools
+barrnap barrnap
+prodigal prodigal
