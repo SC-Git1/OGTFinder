@@ -1,0 +1,175 @@
+{
+  "attention_mlp": {
+    "learning_rate": 0.0007176196185397434,
+    "dropout_rate": 0.11904268902744732,
+    "weight_decay": 0.0001724894141305198,
+    "attention_dim": 32,
+    "hidden_dim": 512
+  },
+  "baseline_mlp": {
+    "learning_rate": 0.0022521233854742406,
+    "dropout_rate": 0.06490636132581903,
+    "weight_decay": 1.0859342000737579e-05,
+    "n_layers": 4,
+    "units_layer_0": 512,
+    "units_layer_1": 512,
+    "units_layer_2": 256,
+    "units_layer_3": 512,
+    "activation": "relu",
+    "normalization": "batchnorm"
+  },
+  "danets": {
+    "learning_rate": 0.0004155409283546995,
+    "dropout_rate": 0.46807399765005336,
+    "weight_decay": 0.0006468694971119868,
+    "n_layers": 2,
+    "n_abstracts_0": 256,
+    "n_abstracts_1": 256,
+    "use_shortcut": true
+  },
+  "ft_transformer": {
+    "learning_rate": 0.006347973783515395,
+    "dropout_rate": 0.41801877667222764,
+    "weight_decay": 0.005000818282828392,
+    "embed_dim": 16,
+    "num_heads": 4,
+    "num_blocks": 2,
+    "n_groups": 25
+  },
+  "gandalf": {
+    "learning_rate": 0.00018653306364181684,
+    "dropout_rate": 0.07693681297235516,
+    "weight_decay": 0.0015666633069282242,
+    "n_gflu_blocks": 6,
+    "gflu_units": 256,
+    "use_feature_selection": true,
+    "sparsity_reg": 0.0004265516808518216
+  },
+  "gated_mlp": {
+    "learning_rate": 0.004040958535321399,
+    "dropout_rate": 0.0776357098086117,
+    "weight_decay": 5.866195096236207e-06,
+    "n_layers": 4,
+    "units_layer_0": 128,
+    "units_layer_1": 512,
+    "units_layer_2": 128,
+    "units_layer_3": 128,
+    "gate_type": "network",
+    "gate_hidden_dim": 64,
+    "sparsity_reg": 0.000402731392190086
+  },
+  "hopular": {
+    "learning_rate": 0.0009552970562285144,
+    "dropout_rate": 0.09808706413731023,
+    "weight_decay": 1.023252808773069e-05,
+    "n_blocks": 2,
+    "embed_dim": 256,
+    "n_memory": 64,
+    "beta": 1.2684867001781606
+  },
+  "lassonet": {
+    "learning_rate": 0.0008083763185954267,
+    "dropout_rate": 0.36702250227327077,
+    "weight_decay": 0.0022233915236674956,
+    "n_layers": 2,
+    "units_layer_0": 128,
+    "units_layer_1": 128,
+    "M": 13.441299215202726,
+    "lambda_reg": 0.00012038919928575611
+  },
+  "node": {
+    "learning_rate": 8.794570212400488e-05,
+    "dropout_rate": 0.4987349954103104,
+    "weight_decay": 5.6312301213258084e-05,
+    "n_trees": 64,
+    "depth": 4,
+    "n_layers": 2,
+    "hidden_dim": 128
+  },
+  "realmlp": {
+    "learning_rate": 0.0012413246751621313,
+    "dropout_rate": 0.10245078607657465,
+    "weight_decay": 0.0018418941954298107,
+    "n_layers": 2,
+    "units_layer_0": 512,
+    "units_layer_1": 512,
+    "use_skip": true
+  },
+  "resnet_mlp": {
+    "learning_rate": 0.006209567450427434,
+    "dropout_rate": 0.4625140334081002,
+    "weight_decay": 1.3411106137119657e-06,
+    "n_blocks": 4,
+    "hidden_dim": 256
+  },
+  "rtdl_resnet": {
+    "learning_rate": 0.00040156167380841297,
+    "dropout_rate": 0.06205043889172292,
+    "weight_decay": 1.0208095639993836e-06,
+    "d_model": 256,
+    "d_hidden": 1024,
+    "n_blocks": 8
+  },
+  "saint": {
+    "learning_rate": 0.006233068732542375,
+    "dropout_rate": 0.15054518649368653,
+    "weight_decay": 0.00010480881583433587,
+    "embed_dim": 32,
+    "num_heads": 2,
+    "num_blocks": 1,
+    "n_groups": 25
+  },
+  "snn": {
+    "learning_rate": 0.004714142558599291,
+    "dropout_rate": 0.050980751457393725,
+    "weight_decay": 3.042929410282659e-06,
+    "n_layers": 3,
+    "hidden_dim": 128
+  },
+  "tabm": {
+    "learning_rate": 0.0027060976636828567,
+    "dropout_rate": 0.10214894768195594,
+    "weight_decay": 0.0011578816138076078,
+    "n_layers": 2,
+    "units_layer_0": 256,
+    "units_layer_1": 64,
+    "num_members": 2,
+    "aggregation": "median"
+  },
+  "tabnet": {
+    "learning_rate": 0.0030896316459286433,
+    "dropout_rate": 0.3744528824145355,
+    "weight_decay": 2.711595994363398e-06,
+    "n_steps": 2,
+    "feature_dim": 64,
+    "output_dim": 128,
+    "n_shared": 2,
+    "n_independent": 3,
+    "relaxation_factor": 1.4014725006748079,
+    "sparsity_coefficient": 0.0001155738677996931
+  },
+  "tabr": {
+    "learning_rate": 7.312136684324208e-05,
+    "dropout_rate": 0.3403633309134788,
+    "weight_decay": 5.982496005691877e-06,
+    "n_layers": 2,
+    "units_layer_0": 512,
+    "units_layer_1": 512,
+    "embed_dim": 32,
+    "n_heads": 2
+  },
+  "vime": {
+    "learning_rate": 0.0030730212053839702,
+    "dropout_rate": 0.0859064823204851,
+    "weight_decay": 0.004125027343477558,
+    "latent_dim": 128,
+    "hidden_dim": 512
+  },
+  "wide_deep": {
+    "learning_rate": 0.0010094507279170312,
+    "dropout_rate": 0.11535605488222718,
+    "weight_decay": 3.017379437993069e-06,
+    "n_layers": 2,
+    "hidden_dim": 512
+  }
+}
