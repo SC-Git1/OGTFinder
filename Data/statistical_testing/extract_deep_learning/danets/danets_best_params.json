@@ -1,0 +1,9 @@
+{
+  "learning_rate": 0.0004155409283546995,
+  "dropout_rate": 0.46807399765005336,
+  "weight_decay": 0.0006468694971119868,
+  "n_layers": 2,
+  "n_abstracts_0": 256,
+  "n_abstracts_1": 256,
+  "use_shortcut": true
+}

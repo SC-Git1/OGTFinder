@@ -1,0 +1,12 @@
+{
+  "learning_rate": 0.0022521233854742406,
+  "dropout_rate": 0.06490636132581903,
+  "weight_decay": 1.0859342000737579e-05,
+  "n_layers": 4,
+  "units_layer_0": 512,
+  "units_layer_1": 512,
+  "units_layer_2": 256,
+  "units_layer_3": 512,
+  "activation": "relu",
+  "normalization": "batchnorm"
+}

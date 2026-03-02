@@ -1,0 +1,139 @@
+{
+    "genus_exp": {
+        "lasso_rmse": {
+            "alpha": 1.0005664816222284e-05,
+            "max_iter": 10000
+        },
+        "ridge_rmse": {
+            "alpha": 1.0005664816222284e-05,
+            "random_state": 2024
+        },
+        "bayesian_ridge_rmse": {
+            "alpha_1": 39.90747470969508,
+            "alpha_2": 2.0090901233425895,
+            "lambda_1": 0.004346083081485934,
+            "lambda_2": 99.06844577778689
+        },
+        "lars_rmse": {
+            "n_nonzero_coefs": 16
+        },
+        "elastic_net_rmse": {
+            "alpha": 1.148148940563388e-08,
+            "l1_ratio": 0.9991713419264947,
+            "max_iter": 50000,
+            "random_state": 2024
+        },
+        "pls_rmse": {
+            "n_components": 18,
+            "max_iter": 10000,
+            "scale": false
+        },
+        "sgd_rmse": {
+            "loss": "squared_error",
+            "penalty": "l1",
+            "alpha": 1.0110388596323141e-05,
+            "max_iter": 10000,
+            "random_state": 2024
+        },
+        "larslasso_rmse": {
+            "alpha": 1.0006798164490307e-05,
+            "max_iter": 10000,
+            "fit_intercept": true,
+            "random_state": 2024
+        },
+        "huber_rmse": {
+            "epsilon": 1.9997788585684573,
+            "alpha": 0.003438935637397678,
+            "max_iter": 10000
+        },
+        "kernel_ridge_rmse": {
+            "length_scale": 10.250574366485884,
+            "noise_level": 4.464050606478552
+        },
+        "svr_rmse": {
+            "C": 99.47163768194565,
+            "epsilon": 8.187037577675065,
+            "length_scale": 7.884273161114625,
+            "noise_level": 20.44943241871226
+        },
+        "gaussian_process_rmse": {
+            "length_scale": 13.056655127888746,
+            "noise_level": 0.10212734987346385,
+            "random_state": 2024,
+            "optimizer": null
+        },
+        "mlp_rmse": {
+            "hidden_layer_sizes": [
+                100
+            ],
+            "activation": "relu",
+            "alpha": 5.8032352740353104e-05,
+            "learning_rate": "adaptive",
+            "solver": "adam",
+            "learning_rate_init": 0.0022044441529063675,
+            "max_iter": 10000,
+            "random_state": 2024
+        },
+        "rf_rmse": {
+            "n_estimators": 50,
+            "max_depth": 16,
+            "min_samples_split": 0.0033075451971580267,
+            "min_samples_leaf": 0.0015827545541911854,
+            "ccp_alpha": 0.03455366825490894,
+            "random_state": 2024
+        },
+        "knn_rmse": {
+            "n_neighbors": 7,
+            "weights": "distance",
+            "p": 2
+        },
+        "adaboost_rmse": {
+            "n_estimators": 999,
+            "learning_rate": 0.0956978097787442,
+            "loss": "linear"
+        },
+        "voting_rmse": {
+            "length_scale": 5.010403400902396,
+            "noise_level": 1.4712324695912098,
+            "rf_min_samples_split": 0.008949444071815317,
+            "rf_min_samples_leaf": 0.012462157885559634,
+            "rf_ccp_alpha": 0.004718742505937571,
+            "rf_n_estimators": 105,
+            "rf_max_depth": 11,
+            "svr_C": 66.0319955172531,
+            "svr_epsilon": 0.02222743296519881,
+            "max_depth": 10,
+            "ada_n_estimators": 174,
+            "ada_learning_rate": 0.060183725748023234,
+            "ada_loss": "linear",
+            "ls_alpha": 1.8079839268732427e-05,
+            "knn_n_neighbors": 2,
+            "knn_weights": "distance",
+            "knn_p": 1,
+            "weight_0": 0.20038042929664798,
+            "weight_1": 0.22256295774057855,
+            "weight_2": 0.07065104393318149,
+            "weight_3": 0.8549557889711287,
+            "weight_4": 0.5986519325009174
+        },
+        "stacking_rmse": {
+            "length_scale": 9.595094282624698,
+            "noise_level": 276.9931090416682,
+            "rf_min_samples_split": 0.014380864888392814,
+            "rf_min_samples_leaf": 0.009418732639994933,
+            "rf_ccp_alpha": 2.907714423981565,
+            "rf_n_estimators": 158,
+            "rf_max_depth": 13,
+            "svr_C": 96.50481672605069,
+            "svr_epsilon": 0.0016056460433050371,
+            "max_depth": 4,
+            "ada_n_estimators": 258,
+            "ada_learning_rate": 0.0741454894116198,
+            "ada_loss": "linear",
+            "ls_alpha": 2.9591140115094967e-05,
+            "knn_n_neighbors": 12,
+            "knn_weights": "uniform",
+            "knn_p": 2
+        }
+    }
+}
