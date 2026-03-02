@@ -1,0 +1,13 @@
+#!/bin/bash
+# Submit all DL stacking ensemble jobs for h100
+
+sbatch reg_dlstack_arch_diversity.slurm
+sbatch reg_dlstack_balanced_power.slurm
+sbatch reg_dlstack_contrarian.slurm
+sbatch reg_dlstack_elite_specialists.slurm
+sbatch reg_dlstack_extreme_hunter.slurm
+sbatch reg_dlstack_hot_cold_bridge.slurm
+sbatch reg_dlstack_kitchen_sink.slurm
+sbatch reg_dlstack_mlp_extractor.slurm
+sbatch reg_dlstack_transformer_attention.slurm
+sbatch reg_dlstack_two_stage_cascade.slurm
