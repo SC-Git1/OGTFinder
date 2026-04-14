@@ -15,7 +15,7 @@
 ## Introduction <a name="introduction"></a>
 OGTFinder is a tool that predicts the optimal growth temperature (OGT) for a user-provided (partial) proteome based on mean amino acid descriptors and taxonomic domain. For more details, please refer to:
 
-Colette, S., François, J., De Moor, B., & Van Noort, V. (2025, March). *Machine learning for optimal growth temperature prediction of prokaryotes using amino acid descriptors*. doi:10.1101/2025.03.03.640802
+Colette, S., François, J., De Moor, B., & Van Noort, V. (2026). *OGTFinder: A Curated Growth Temperature Data Set and Its Application To Predict Optimal Growth Temperatures of Bacteria and Archaea*. [link](https://pubs.acs.org/doi/full/10.1021/acs.jcim.5c03033)
 
 ## Installation <a name="installation"></a>
 System Requirements: Python (>= 3.9)
